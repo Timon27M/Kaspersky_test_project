@@ -7,7 +7,7 @@ import IncorrectEmailError from "../errors/IncorrectEmailError";
 
 import User from "../models/user";
 import {
-  TAddUserBody,
+  TUserBody,
   TDefaultError,
   TGetUserParams,
   TGroup,
@@ -42,7 +42,7 @@ export const getUser = (
 };
 
 export const updateUser = (
-  req: Request<TUserParams, {}, TAddUserBody>,
+  req: Request<TUserParams, {}, TUserBody>,
   res: Response,
   next: NextFunction
 ) => {
@@ -91,11 +91,11 @@ export const getAllUsers = (
 };
 
 export const addUser = (
-  req: Request<{}, {}, TAddUserBody>,
+  req: Request<{}, {}, TUserBody>,
   res: Response,
   next: NextFunction
 ) => {
-  const { name, email, login, surname, group = "unknown" } = req.body;
+  const { name, email, login, surname, group, image } = req.body;
 
   User.create({
     name,
@@ -103,6 +103,7 @@ export const addUser = (
     surname,
     login,
     group,
+    image
   })
     .then((user) => {
       res.status(201).send(user);

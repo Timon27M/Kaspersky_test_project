@@ -3,16 +3,19 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.addMockUsers = exports.addUser = exports.getAllUsers = exports.updateUser = exports.getUser = void 0;
+exports.getUnknownUsers = exports.getTesterUsers = exports.getAnalyticsUsers = exports.getDevelopmentUsers = exports.getAccountingUsers = exports.getManagementUsers = exports.addMockUsers = exports.addUser = exports.getAllUsers = exports.updateUser = exports.getUser = void 0;
 const mongodb_1 = require("mongodb");
 const BadRequestError_1 = __importDefault(require("../errors/BadRequestError"));
 const NotFoundError_1 = __importDefault(require("../errors/NotFoundError"));
 const IncorrectEmailError_1 = __importDefault(require("../errors/IncorrectEmailError"));
-// const UnauthorizatedError = require("../errors/UnauthorizatedError");
 const user_1 = __importDefault(require("../models/user"));
 const addMockUsers_1 = require("../utils/addMockUsers");
+const mongoose_1 = __importDefault(require("mongoose"));
 const getUser = (req, res, next) => {
     const { userId } = req.params;
+    if (!mongoose_1.default.Types.ObjectId.isValid(userId)) {
+        return next(new BadRequestError_1.default("Некорректный id пользователя"));
+    }
     user_1.default.findById(userId)
         .orFail(() => {
         throw new NotFoundError_1.default("Пользователь не найден");
@@ -29,9 +32,9 @@ const getUser = (req, res, next) => {
 };
 exports.getUser = getUser;
 const updateUser = (req, res, next) => {
-    const { name, email, surname, login } = req.body;
+    const { name, email, surname, login, group } = req.body;
     const { userId } = req.params;
-    user_1.default.findByIdAndUpdate(userId, { name, email, surname, login }, {
+    user_1.default.findByIdAndUpdate(userId, { name, email, surname, login, group }, {
         new: true,
         runValidators: true,
     })
@@ -63,7 +66,7 @@ const getAllUsers = (req, res, next) => {
 };
 exports.getAllUsers = getAllUsers;
 const addUser = (req, res, next) => {
-    const { name, email, login, surname, group } = req.body;
+    const { name, email, login, surname, group = "unknown" } = req.body;
     user_1.default.create({
         name,
         email,
@@ -88,8 +91,14 @@ const addMockUsers = (req, res, next) => {
         if (users.length < 300) {
             const mockUsers = (0, addMockUsers_1.generateUniqueUsers)(330);
             mockUsers.forEach((mockUser) => {
-                user_1.default.create(mockUser)
-                    .catch((error) => {
+                const { name, email, login, surname, group = "unknown" } = mockUser;
+                user_1.default.create({
+                    name,
+                    email,
+                    surname,
+                    login,
+                    group,
+                }).catch((error) => {
                     if (error instanceof mongodb_1.MongoServerError && error.code === 11000) {
                         return next(new IncorrectEmailError_1.default("Пользователь с таким email или логином уже существует"));
                     }
@@ -104,46 +113,36 @@ const addMockUsers = (req, res, next) => {
     });
 };
 exports.addMockUsers = addMockUsers;
-// const createUser = (req, res, next) => {
-//   const { name, email, password } = req.body;
-//   bcrypt
-//     .hash(password, 10)
-//     .then((hash) =>
-//       User.create({
-//         name,
-//         email,
-//         password: hash,
-//       })
-//     )
-//     .then((user) => {
-//       const token = jwt.sign({ _id: user._id }, "super-strong-secret");
-//       res.status(200).send({
-//         name: user.name,
-//         email: user.email,
-//         _id: user._id,
-//         token,
-//       });
-//     })
-//     .catch((err) => {
-//       if (err.code === 11000) {
-//         return next(
-//           new IncorrectEmailError("Пользователь с таким email уже существует")
-//         );
-//       }
-//       if (err.name === "ValidationError") {
-//         return next(new BadRequestError("Переданы некорректные данные"));
-//       }
-//       return next(err);
-//     });
-// };
-// const loginUser = (req, res, next) => {
-//   const { email, password } = req.body;
-//   User.findUserByCredentials(email, password)
-//     .then((user) => {
-//       const token = jwt.sign({ _id: user._id }, "super-strong-secret");
-//       res.send({ token });
-//     })
-//     .catch(() => {
-//       next(new UnauthorizatedError("Неправильный логин или пароль"));
-//     });
-// };
+const getUsersByGroup = (group, req, res, next) => {
+    user_1.default.find({ group })
+        .then((users) => {
+        res.status(200).send(users);
+    })
+        .catch((error) => {
+        next(error);
+    });
+};
+const getManagementUsers = (req, res, next) => {
+    getUsersByGroup("management", req, res, next);
+};
+exports.getManagementUsers = getManagementUsers;
+const getAccountingUsers = (req, res, next) => {
+    getUsersByGroup("accounting", req, res, next);
+};
+exports.getAccountingUsers = getAccountingUsers;
+const getDevelopmentUsers = (req, res, next) => {
+    getUsersByGroup("development", req, res, next);
+};
+exports.getDevelopmentUsers = getDevelopmentUsers;
+const getAnalyticsUsers = (req, res, next) => {
+    getUsersByGroup("analytics", req, res, next);
+};
+exports.getAnalyticsUsers = getAnalyticsUsers;
+const getTesterUsers = (req, res, next) => {
+    getUsersByGroup("tester", req, res, next);
+};
+exports.getTesterUsers = getTesterUsers;
+const getUnknownUsers = (req, res, next) => {
+    getUsersByGroup("unknown", req, res, next);
+};
+exports.getUnknownUsers = getUnknownUsers;

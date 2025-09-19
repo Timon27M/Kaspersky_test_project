@@ -7,10 +7,18 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
+  font-synthesis: none; 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* Цвета */
+  --white: rgba(255, 255, 255, 1);
+  /* --light-gray: rgb(229, 228, 228); */
+  --light-blue: rgb(6, 103, 125);
+  --black: rgb(0, 0, 0);
+  --black-hover: rgba(0, 0, 0, 0.82);
+  --light-gray: rgb(167, 164, 164);
 }
 
 a {
@@ -45,13 +53,6 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {

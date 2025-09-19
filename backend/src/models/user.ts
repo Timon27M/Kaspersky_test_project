@@ -1,11 +1,23 @@
 import mongoose, { Document, Model } from "mongoose";
 import isEmail from "validator/lib/isEmail";
+import fs from "fs";
+import path from "path";
 
+const defaultImage = fs.readFileSync(
+  path.join(__dirname, "../utils/images/defaultUser.png")
+);
 export interface IUser extends Document {
   name: string;
   login: string;
   email: string;
-  group: string;
+  group:
+    | "management"
+    | "accounting"
+    | "development"
+    | "analytics"
+    | "tester"
+    | "unknown";
+  image: Buffer;
 }
 
 export interface IUserModel extends Model<IUser> {
@@ -29,7 +41,15 @@ const userSchema = new mongoose.Schema<IUser, IUserModel>({
   },
   group: {
     type: String,
-    enum: ["management", "accounting", "development", "analytics", "tester", "unknown"],
+    default: "unknown",
+    enum: [
+      "management",
+      "accounting",
+      "development",
+      "analytics",
+      "tester",
+      "unknown",
+    ],
   },
   email: {
     type: String,
@@ -39,6 +59,11 @@ const userSchema = new mongoose.Schema<IUser, IUserModel>({
       validator: (email: string) => isEmail(email),
       message: "Неправильный адрес почты",
     },
+  },
+  image: {
+    type: Buffer,
+    required: true,
+    default: defaultImage,
   },
 });
 
