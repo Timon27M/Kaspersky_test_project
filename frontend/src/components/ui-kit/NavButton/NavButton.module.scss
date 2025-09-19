@@ -1,0 +1,22 @@
+.button {
+  min-width: 170px;
+  padding: 20px;
+  font-size: 21px;
+  border-radius: 18px;
+  box-sizing: border-box;
+
+  background-color: var(--black);
+  transition: 0.3s ease, transform 0.2s ease;
+
+  border-right: 10px solid var(--light-gray);
+  border-bottom: 10px solid var(--light-gray);
+
+  &:hover {
+    background-color: var(--black-hover);
+  }
+}
+
+.buttonActive {
+  border-right: 5px solid var(--light-blue);
+  border-bottom: 5px solid var(--light-blue);
+}

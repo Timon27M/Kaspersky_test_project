@@ -5,20 +5,13 @@ export type TGroup =
   | "analytics"
   | "tester";
 
-export type TAddUserBody = {
+export type TUserBody = {
   name: string;
   email: string;
   surname: string;
   login: string;
   group?: TGroup; 
-};
-
-export type TUpdateUserBody = {
-  name: string;
-  surname: string;
-  email: string;
-  login: string;
-  group?: TGroup; 
+  image?: Buffer;
 };
 
 export type TUserParams = {

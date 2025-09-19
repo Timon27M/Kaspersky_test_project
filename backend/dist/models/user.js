@@ -20,7 +20,14 @@ const userSchema = new mongoose_1.default.Schema({
     },
     group: {
         type: String,
-        enum: ["management", "accounting", "human resources department"],
+        enum: [
+            "management",
+            "accounting",
+            "development",
+            "analytics",
+            "tester",
+            "unknown",
+        ],
     },
     email: {
         type: String,
@@ -32,22 +39,4 @@ const userSchema = new mongoose_1.default.Schema({
         },
     },
 });
-// userSchema.statics.findUserByCredentials = function (email, password) {
-//   return this.findOne({ email }).select('+password')
-//     .then((user) => {
-//       if (!user) {
-//         return Promise.reject(new Error('Неправильные почта и пароль'));
-//       }
-//       return bcrypt.compare(password, user.password)
-//         .then((matched) => {
-//           if (!matched) {
-//             return Promise.reject(new Error('Неправильные почта или пароль'));
-//           }
-//           return user;
-//         });
-//     });
-// };
-// userSchema.statics.getAllUsers = function () {
-//   return this.find(); // убираем пароль из результата
-// };
 exports.default = mongoose_1.default.model("user", userSchema);
