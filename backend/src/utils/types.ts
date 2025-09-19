@@ -1,9 +1,16 @@
+export type TGroup =
+  | "management"
+  | "accounting"
+  | "development"
+  | "analytics"
+  | "tester";
+
 export type TAddUserBody = {
   name: string;
   email: string;
   surname: string;
   login: string;
-  group?: "management" | "accounting" | "human resources department"; // если group необязательный
+  group?: TGroup; 
 };
 
 export type TUpdateUserBody = {
@@ -11,13 +18,17 @@ export type TUpdateUserBody = {
   surname: string;
   email: string;
   login: string;
-  group?: "management" | "accounting" | "human resources department"; // если group необязательный
+  group?: TGroup; 
 };
 
 export type TUserParams = {
-  userId: string
-}
+  userId: string;
+};
 
 export type TDefaultError = {
   message: string;
-}
+};
+
+export type TGetUserParams = {
+  userId: string;
+};

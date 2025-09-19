@@ -1,19 +1,31 @@
-// import bcrypt from "bcryptjs";
-// import jwt from "jsonwebtoken";
 import { Request, Response, NextFunction } from "express";
 import { MongoServerError } from "mongodb";
 
 import BadRequestError from "../errors/BadRequestError";
 import NotFoundError from "../errors/NotFoundError";
 import IncorrectEmailError from "../errors/IncorrectEmailError";
-// const UnauthorizatedError = require("../errors/UnauthorizatedError");
 
 import User from "../models/user";
-import { TAddUserBody, TDefaultError, TUserParams } from "../utils/types";
+import {
+  TAddUserBody,
+  TDefaultError,
+  TGetUserParams,
+  TGroup,
+  TUserParams,
+} from "../utils/types";
 import { generateUniqueUsers } from "../utils/addMockUsers";
+import mongoose from "mongoose";
 
-export const getUser = (req: Request, res: Response, next: NextFunction) => {
+export const getUser = (
+  req: Request<TGetUserParams>,
+  res: Response,
+  next: NextFunction
+) => {
   const { userId } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(userId)) {
+    return next(new BadRequestError("Некорректный id пользователя"));
+  }
   User.findById(userId)
     .orFail(() => {
       throw new NotFoundError("Пользователь не найден");
@@ -34,12 +46,12 @@ export const updateUser = (
   res: Response,
   next: NextFunction
 ) => {
-  const { name, email, surname, login } = req.body;
+  const { name, email, surname, login, group } = req.body;
   const { userId } = req.params;
 
   User.findByIdAndUpdate(
     userId,
-    { name, email, surname, login },
+    { name, email, surname, login, group },
     {
       new: true,
       runValidators: true,
@@ -83,7 +95,7 @@ export const addUser = (
   res: Response,
   next: NextFunction
 ) => {
-  const { name, email, login, surname, group } = req.body;
+  const { name, email, login, surname, group = "unknown" } = req.body;
 
   User.create({
     name,
@@ -117,70 +129,92 @@ export const addMockUsers = (
       if (users.length < 300) {
         const mockUsers = generateUniqueUsers(330);
         mockUsers.forEach((mockUser) => {
-          User.create(mockUser)
-            .catch((error) => {
-              if (error instanceof MongoServerError && error.code === 11000) {
-                return next(
-                  new IncorrectEmailError(
-                    "Пользователь с таким email или логином уже существует"
-                  )
-                );
-              }
-              return next(error);
-            });
+          const { name, email, login, surname, group = "unknown" } = mockUser;
+          User.create({
+            name,
+            email,
+            surname,
+            login,
+            group,
+          }).catch((error) => {
+            if (error instanceof MongoServerError && error.code === 11000) {
+              return next(
+                new IncorrectEmailError(
+                  "Пользователь с таким email или логином уже существует"
+                )
+              );
+            }
+            return next(error);
+          });
         });
       }
 
-      res.status(201).send("Пользователи успешно добавлены")
+      res.status(201).send("Пользователи успешно добавлены");
     })
     .catch((error: TDefaultError) => {
       next(error);
     });
 };
 
-// const createUser = (req, res, next) => {
-//   const { name, email, password } = req.body;
+const getUsersByGroup = (
+  group: TGroup | "unknown",
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  User.find({ group })
+    .then((users) => {
+      res.status(200).send(users);
+    })
+    .catch((error: TDefaultError) => {
+      next(error);
+    });
+};
 
-//   bcrypt
-//     .hash(password, 10)
-//     .then((hash) =>
-//       User.create({
-//         name,
-//         email,
-//         password: hash,
-//       })
-//     )
-//     .then((user) => {
-//       const token = jwt.sign({ _id: user._id }, "super-strong-secret");
-//       res.status(200).send({
-//         name: user.name,
-//         email: user.email,
-//         _id: user._id,
-//         token,
-//       });
-//     })
-//     .catch((err) => {
-//       if (err.code === 11000) {
-//         return next(
-//           new IncorrectEmailError("Пользователь с таким email уже существует")
-//         );
-//       }
-//       if (err.name === "ValidationError") {
-//         return next(new BadRequestError("Переданы некорректные данные"));
-//       }
-//       return next(err);
-//     });
-// };
+export const getManagementUsers = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  getUsersByGroup("management", req, res, next);
+};
 
-// const loginUser = (req, res, next) => {
-//   const { email, password } = req.body;
+export const getAccountingUsers = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  getUsersByGroup("accounting", req, res, next);
+};
 
-//   User.findUserByCredentials(email, password)
-//     .then((user) => {
-//       const token = jwt.sign({ _id: user._id }, "super-strong-secret");
-//       res.send({ token });
-//     })
-//     .catch(() => {
-//       next(new UnauthorizatedError("Неправильный логин или пароль"));
-//     });
-// };
+export const getDevelopmentUsers = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  getUsersByGroup("development", req, res, next);
+};
+
+export const getAnalyticsUsers = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  getUsersByGroup("analytics", req, res, next);
+};
+
+export const getTesterUsers = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  getUsersByGroup("tester", req, res, next);
+};
+
+export const getUnknownUsers = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  getUsersByGroup("unknown", req, res, next);
+};

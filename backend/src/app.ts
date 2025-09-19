@@ -19,12 +19,8 @@ app.use(cors);
 app.use(requestLogger);
 app.use(rateLimiter);
 app.use("/", routes);
-// app.use(express.json());
-app.use(errorLogger);
 
-// app.get("/", (req: Request, res: Response) => {
-//   res.send("Hello, Express + TypeScript!");
-// });
+app.use(errorLogger);
 
 app.use(errors());
 app.use(handlerError);

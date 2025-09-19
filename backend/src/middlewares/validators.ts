@@ -2,8 +2,16 @@ import { celebrate, Joi } from "celebrate";
 
 export const validationUpdateUser = celebrate({
   body: Joi.object().keys({
-    name: Joi.string().required().min(2).max(30),
-    email: Joi.string().required().email(),
+    name: Joi.string().min(2).max(30),
+    email: Joi.string().email(),
+    login: Joi.string().min(2).max(30),
+    group: Joi.string().valid(
+      "management",
+      "accounting",
+      "development",
+      "analytics",
+      "tester"
+    ),
   }),
 });
 
@@ -15,7 +23,9 @@ export const validationAddUser = celebrate({
     group: Joi.string().valid(
       "management",
       "accounting",
-      "human resources department"
+      "development",
+      "analytics",
+      "tester"
     ),
-  })
-})
+  }),
+});
