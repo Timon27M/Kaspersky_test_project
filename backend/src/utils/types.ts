@@ -3,7 +3,8 @@ export type TGroup =
   | "accounting"
   | "development"
   | "analytics"
-  | "tester";
+  | "tester"
+  | "unknown";
 
 export type TUserBody = {
   name: string;
@@ -11,7 +12,6 @@ export type TUserBody = {
   surname: string;
   login: string;
   group?: TGroup; 
-  image?: Buffer;
 };
 
 export type TUserParams = {

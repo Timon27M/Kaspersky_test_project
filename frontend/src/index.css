@@ -7,18 +7,20 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none; 
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   /* Цвета */
   --white: rgba(255, 255, 255, 1);
-  --light-gray: rgb(229, 228, 228);
+  --light-gray: rgb(220, 220, 220);
   --light-blue: rgb(6, 103, 125);
   --black: rgb(0, 0, 0);
   --black-hover: rgba(0, 0, 0, 0.82);
   --gray: rgb(183, 181, 181);
+  --red: rgb(181, 20, 20);
+  --red-hover: rgb(181, 20, 20, 0.82);
 }
 
 a {

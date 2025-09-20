@@ -46,7 +46,7 @@ export const updateUser = (
   res: Response,
   next: NextFunction
 ) => {
-  const { name, email, surname, login, group } = req.body;
+  const { name, email, surname, login, group = "unknown" } = req.body;
   const { userId } = req.params;
 
   User.findByIdAndUpdate(
@@ -95,7 +95,8 @@ export const addUser = (
   res: Response,
   next: NextFunction
 ) => {
-  const { name, email, login, surname, group, image } = req.body;
+  const body = req.body
+  const { name, email, login, surname, group } = req.body;
 
   User.create({
     name,
@@ -103,7 +104,6 @@ export const addUser = (
     surname,
     login,
     group,
-    image
   })
     .then((user) => {
       res.status(201).send(user);
@@ -117,6 +117,20 @@ export const addUser = (
         );
       }
       return next(error);
+    });
+};
+
+export const deleteUser = (req: Request, res: Response, next: NextFunction) => {
+  const { userId } = req.params;
+  User.findByIdAndDelete(userId)
+    .orFail(() => {
+      throw new NotFoundError("Пользователь не найден");
+    })
+    .then((user) => {
+      res.send(user);
+    })
+    .catch((err) => {
+      return next(err);
     });
 };
 

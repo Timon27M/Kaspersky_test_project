@@ -23,7 +23,7 @@ function UserCards() {
               <UserCard
                 name={user.name}
                 surname={user.surname}
-                group={user.group}
+                group={user.group ? user.group : "unknown"}
                 login={user.login}
                 id={user._id}
               />

@@ -12,6 +12,8 @@ export type TUser = {
   email: string;
   surname: string;
   login: string;
-  group: TUserGroup;
+  group?: TUserGroup;
   _id: string;
 };
+
+export type TUserWithoutId = Omit<TUser, "_id">
