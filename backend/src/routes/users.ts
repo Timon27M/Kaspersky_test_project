@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getUser, updateUser, getAllUsers, addUser, addMockUsers, getManagementUsers, getAccountingUsers, getDevelopmentUsers, getAnalyticsUsers, getTesterUsers, getUnknownUsers } from "../controllers/users";
+import { getUser, updateUser, getAllUsers, addUser, addMockUsers, getManagementUsers, getAccountingUsers, getDevelopmentUsers, getAnalyticsUsers, getTesterUsers, getUnknownUsers, deleteUser } from "../controllers/users";
 
 import { validationUpdateUser, validationAddUser } from "../middlewares/validators";
 
@@ -16,5 +16,6 @@ router.get("/users/unknown", getUnknownUsers)
 router.post("/user", validationAddUser, addUser)
 router.post("/mock/users", addMockUsers)
 router.patch("/user/:userId", validationUpdateUser, updateUser);
+router.delete("/user/:userId", deleteUser)
 
 export default router;

@@ -1,0 +1,10 @@
+.button {
+    width: 500px;
+    font-size: 28px;
+    padding: 15px;
+
+    margin-top: 80px;
+    &:hover {
+        background-color: var(--black-hover);
+    }
+}

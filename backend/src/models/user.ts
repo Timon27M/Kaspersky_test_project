@@ -1,11 +1,6 @@
 import mongoose, { Document, Model } from "mongoose";
 import isEmail from "validator/lib/isEmail";
-// import fs from "fs";
-// import path from "path";
 
-// const defaultImage = fs.readFileSync(
-//   path.join(__dirname, "../utils/images/defaultUser.png")
-// );
 export interface IUser extends Document {
   name: string;
   login: string;
@@ -18,14 +13,7 @@ export interface IUser extends Document {
     | "analytics"
     | "tester"
     | "unknown";
-  // image: Buffer;
 }
-
-// export interface IUserModel extends Model<IUser> {
-//   findUserByCredentials(email: string, password: string): Promise<IUser>;
-//   findUserByLogin(login: string): Promise<IUser>;
-//   getAllUsers(): Promise<IUser[]>;
-// }
 
 const userSchema = new mongoose.Schema<IUser>({
   name: {
@@ -66,11 +54,6 @@ const userSchema = new mongoose.Schema<IUser>({
       message: "Неправильный адрес почты",
     },
   },
-  // image: {
-  //   type: Buffer,
-  //   required: true,
-  //   default: defaultImage,
-  // },
 });
 
 export default mongoose.model("user", userSchema);

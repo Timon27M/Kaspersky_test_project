@@ -1,5 +1,4 @@
 import {
-  createSelector,
   createSlice,
   type PayloadAction,
 } from "@reduxjs/toolkit";
@@ -18,7 +17,7 @@ const defaultState: TSearchState = {
 };
 
 const usersSlice = createSlice({
-  name: "userCards",
+  name: "users",
   initialState: defaultState,
   reducers: {
     setActiveUserCardsName: (state, action: PayloadAction<string>) => {

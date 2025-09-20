@@ -3,6 +3,7 @@ import { celebrate, Joi } from "celebrate";
 export const validationUpdateUser = celebrate({
   body: Joi.object().keys({
     name: Joi.string().min(2).max(30),
+    surname: Joi.string().min(2).max(30),
     email: Joi.string().email(),
     login: Joi.string().min(2).max(30),
     group: Joi.string().valid(
@@ -10,7 +11,8 @@ export const validationUpdateUser = celebrate({
       "accounting",
       "development",
       "analytics",
-      "tester"
+      "tester",
+      "unknown"
     ),
   }),
 });
@@ -18,6 +20,7 @@ export const validationUpdateUser = celebrate({
 export const validationAddUser = celebrate({
   body: Joi.object().keys({
     name: Joi.string().required().min(2).max(30),
+    surname: Joi.string().required().min(2).max(30),
     email: Joi.string().required().email(),
     login: Joi.string().required().min(2).max(30),
     group: Joi.string().valid(

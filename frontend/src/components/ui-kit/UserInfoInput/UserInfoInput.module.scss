@@ -1,0 +1,18 @@
+.input {
+  min-width: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 3px solid var(--black);
+  outline: none;
+  color: var(--black);
+  font-size: 30px;
+  font-weight: 500;
+
+  &:focus {
+    border-bottom: 3px solid var(--light-blue);
+  }
+}
+
+.inputDisabled {
+    opacity: 0.5;
+}
