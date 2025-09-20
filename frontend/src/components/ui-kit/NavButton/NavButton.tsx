@@ -3,7 +3,7 @@ import {
   useAppSelector,
 } from "../../../assets/hooks/redux-hooks";
 import {
-  activeUserSelector,
+  getActiveUserCardsSelector,
   setActiveUserCardsName,
 } from "../../../store/usersSlice/usersSlice";
 import styles from "./NavButton.module.scss";
@@ -18,9 +18,10 @@ function NavButton({ text, name }: TProps) {
 
   function handleClick() {
     dispatch(setActiveUserCardsName(name));
+    sessionStorage.setItem("activeUsersgroup", name)
   }
 
-  const activeUsersgroup = useAppSelector(activeUserSelector);
+  const activeUsersgroup = useAppSelector(getActiveUserCardsSelector);
 
   return (
     <>

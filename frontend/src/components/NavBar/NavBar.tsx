@@ -5,13 +5,15 @@ import styles from "./NavBar.module.scss";
 function NavBar() {
   return (
     <div className={styles.container}>
-      {userGroup.map((item) => {
-        return (
-          <div className={styles.navBlock}>
-            <NavButton text={item} name={item} />
-          </div>
-        );
-      })}
+      <div className={styles.buttonList}>
+        {userGroup.map((item, index) => {
+          return (
+            <div className={styles.navBlock} key={index}>
+              <NavButton text={item} name={item} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

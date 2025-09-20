@@ -1,7 +1,18 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: 16%;
+  background-color: var(--light-gray);
+  border-top-right-radius: 30px; 
+  border-bottom-right-radius: 30px; 
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
 }
