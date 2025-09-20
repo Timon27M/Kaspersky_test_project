@@ -1,4 +1,4 @@
-import type { TUser } from "../../../assets/types";
+import type { TUser, TUserWithoutId } from "../../../assets/types";
 import { AxiosService } from "../AxiosService";
 
 class UserService {
@@ -51,6 +51,16 @@ class UserService {
   async DeleteUser(id:string): Promise<TUser | undefined> {
     try {
       const response = await AxiosService.delete<TUser>(`user/${id}`, ).then((res) => res.data);
+
+      return response;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async CreateUser(userData: TUserWithoutId): Promise<TUser | undefined> {
+    try {
+      const response = await AxiosService.post<TUser>("user", userData).then((res) => res.data);
 
       return response;
     } catch (error) {

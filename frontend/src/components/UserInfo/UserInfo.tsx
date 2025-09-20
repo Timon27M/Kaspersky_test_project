@@ -2,7 +2,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import styles from "./UserInfo.module.scss";
 import { useEffect, useState } from "react";
 import UserInfoInput from "../ui-kit/UserInfoInput/UserInfoInput";
-import type { TUser } from "../../assets/types";
+import type { TUser, TUserWithoutId } from "../../assets/types";
 import SubmitButton from "../ui-kit/SubmitButton/SubmitButton";
 import { useAppDispatch, useAppSelector } from "../../assets/hooks/redux-hooks";
 import { getUserDataSelector, getUserIdSelector } from "../../store/userSlice/userSlice";
@@ -23,7 +23,7 @@ function UserInfo() {
   const [textButtonChangeData, setTextButtonChangeData] =
     useState("Изменить данные");
 
-  function submitForm(data: TUser) {
+  function submitForm(data: TUserWithoutId) {
     if (!isInputDisabled) {
       dispatch(updateUser({...data, _id: userId}));
       setTextButtonChangeData("Изменить данные");

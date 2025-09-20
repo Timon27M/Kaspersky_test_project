@@ -95,7 +95,8 @@ export const addUser = (
   res: Response,
   next: NextFunction
 ) => {
-  const { name, email, login, surname, group, image } = req.body;
+  const body = req.body
+  const { name, email, login, surname, group } = req.body;
 
   User.create({
     name,
@@ -103,7 +104,6 @@ export const addUser = (
     surname,
     login,
     group,
-    image,
   })
     .then((user) => {
       res.status(201).send(user);

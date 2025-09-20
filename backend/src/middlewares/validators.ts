@@ -28,7 +28,8 @@ export const validationAddUser = celebrate({
       "accounting",
       "development",
       "analytics",
-      "tester"
+      "tester",
+      "unknown"
     ),
   }),
 });

@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import UserService from "../services/AxiosService/UserService/UserService";
 import { setUsers } from "./usersSlice/usersSlice";
 import { setUserData } from "./userSlice/userSlice";
-import type { TUser } from "../assets/types";
+import type { TUser, TUserWithoutId } from "../assets/types";
 
 export const getUsers = createAsyncThunk(
   "users/getUsers",
@@ -69,6 +69,27 @@ export const deleteUser = createAsyncThunk(
   async function (id: string, { rejectWithValue, dispatch }) {
     try {
       const response = await UserService.DeleteUser(id);
+
+      if (!response) {
+        throw new Error("Ошибка получения данных");
+      }
+
+      dispatch(getUsers());
+    } catch (error) {
+      if (error instanceof Error) {
+        return rejectWithValue(error.message);
+      }
+      return error;
+    }
+  }
+)
+
+
+export const createUser = createAsyncThunk(
+  "user/createUser",
+  async function (userData: TUserWithoutId, { rejectWithValue, dispatch }) {
+    try {
+      const response = await UserService.CreateUser(userData);
 
       if (!response) {
         throw new Error("Ошибка получения данных");
