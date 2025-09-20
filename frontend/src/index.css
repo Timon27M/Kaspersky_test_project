@@ -14,11 +14,11 @@
   
   /* Цвета */
   --white: rgba(255, 255, 255, 1);
-  /* --light-gray: rgb(229, 228, 228); */
+  --light-gray: rgb(229, 228, 228);
   --light-blue: rgb(6, 103, 125);
   --black: rgb(0, 0, 0);
   --black-hover: rgba(0, 0, 0, 0.82);
-  --light-gray: rgb(167, 164, 164);
+  --gray: rgb(183, 181, 181);
 }
 
 a {
@@ -53,6 +53,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: light) {

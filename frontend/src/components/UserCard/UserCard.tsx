@@ -1,14 +1,34 @@
-import type { TUser } from '../../assets/types'
-import styles from './UserCard.module.scss'
+import { useNavigate } from "react-router-dom";
+import type { TUser, TUserGroup } from "../../assets/types";
+import styles from "./UserCard.module.scss";
 
-type TProps = TUser
-
-function UserCard({name, email, surname, login, _id, group}: TProps) {
-  return (
-    <div className={styles.container}>
-      
-    </div>
-  )
+type TProps = {
+  name: string;
+  surname: string;
+  login: string;
+  group: TUserGroup;
+  id: string;
 };
 
-export default UserCard
+function UserCard({ name, group, surname, login, id }: TProps) {
+
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate(`/user/${id}`)
+  }
+  return (
+    <div className={styles.container} onClick={handleClick}>
+      <div className={styles.nameBlock}>
+        <p>{name}</p>
+        <p>{surname}</p>
+      </div>
+      <div className={styles.infoBlock}>
+        <p> login: {login}</p>
+        <p>group: {group}</p>
+      </div>
+    </div>
+  );
+}
+
+export default UserCard;

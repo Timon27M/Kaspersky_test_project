@@ -5,11 +5,12 @@ import styles from "./MainPage.module.scss";
 
 function MainPage() {
   return (
-  <section className={styles.section}>
-    <NavBar />
-    <UserCards />
-    <SearchInput />
-  </section>
+    <section className={styles.section}>
+      {/* <div className={styles.navBlock}> */}
+        <NavBar />
+      {/* </div> */}
+      <UserCards />
+    </section>
   );
 }
 
