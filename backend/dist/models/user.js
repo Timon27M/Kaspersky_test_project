@@ -11,6 +11,11 @@ const userSchema = new mongoose_1.default.Schema({
         minlength: 2,
         maxlength: 30,
     },
+    surname: {
+        type: String,
+        minlength: 2,
+        maxlength: 30,
+    },
     login: {
         type: String,
         minlength: 4,
@@ -20,6 +25,7 @@ const userSchema = new mongoose_1.default.Schema({
     },
     group: {
         type: String,
+        default: "unknown",
         enum: [
             "management",
             "accounting",

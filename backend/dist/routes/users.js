@@ -15,4 +15,5 @@ router.get("/users/unknown", users_1.getUnknownUsers);
 router.post("/user", validators_1.validationAddUser, users_1.addUser);
 router.post("/mock/users", users_1.addMockUsers);
 router.patch("/user/:userId", validators_1.validationUpdateUser, users_1.updateUser);
+router.delete("/user/:userId", users_1.deleteUser);
 exports.default = router;

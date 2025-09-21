@@ -25,7 +25,7 @@ app.use(errorLogger);
 app.use(errors());
 app.use(handlerError);
 
-mongoose.connect(DBlink);
+mongoose.connect(process.env.MONGO_URI || DBlink);
 
 app.listen(PORT, () => {
   console.log(`Сервер запущен: http://localhost:${PORT}`);

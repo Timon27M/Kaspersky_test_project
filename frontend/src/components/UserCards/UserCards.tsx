@@ -9,11 +9,13 @@ import Button from "../ui-kit/Button/Button";
 import {
   getErrorMessage,
   getIsLoading,
+  getUsersSelector,
 } from "../../store/usersSlice/usersSlice";
 
 function UserCards() {
   const dispatch = useAppDispatch();
   const users = useAppSelector(getUsersByGroup);
+  const allUsers = useAppSelector(getUsersSelector)
 
   const isLoading = useAppSelector(getIsLoading);
   const errorMessage = useAppSelector(getErrorMessage);
@@ -33,7 +35,7 @@ function UserCards() {
         {isLoading ? (
           <p>...Загрузка</p>
         ) : !errorMessage ? (
-          users.length !== 0 ? (
+          allUsers.length !== 0 ? (
             users.map((user) => {
               return (
                 <div className={styles.card} key={user._id}>
