@@ -67,6 +67,16 @@ class UserService {
       console.error(error);
     }
   }
+
+  async CreateMockUsers() {
+    try {
+      const response = await AxiosService.post<TUser[]>("mock/users").then((res) => res.data);
+
+      return response;
+    } catch (error) {
+      console.error(error);
+    }
+  }
 }
 
 export default new UserService();

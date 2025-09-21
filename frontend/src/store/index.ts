@@ -5,7 +5,7 @@ import { reducer as userReducer } from "./userSlice/userSlice"
 
 export const reducer = combineReducers({
   search: searchReducer,
-  userCards: userCardsReducer,
+  users: userCardsReducer,
   user:userReducer
 });
 

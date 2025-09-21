@@ -26,6 +26,13 @@
   box-sizing: border-box;
 }
 
+.buttonAddMockData {
+  font-size: 20px;
+  &:hover {
+    background-color: var(--black-hover);
+  }
+}
+
 @media (max-width: 850px) and (min-width: 375px) {
   .cardList {
 grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
