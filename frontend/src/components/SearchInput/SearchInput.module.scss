@@ -15,3 +15,12 @@
     border-bottom: 3px solid var(--light-blue);
   }
 }
+
+@media (max-width: 475px) {
+  .input {
+    min-width: 170px;
+    max-width: 210px;
+    font-size: 17px;
+    box-sizing: border-box;
+  }
+}

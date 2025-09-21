@@ -31,3 +31,24 @@
     background-color: var(--red-hover);
   }
 }
+
+@media (max-width: 600px) {
+  .button {
+    position: fixed;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    position: fixed;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .button {
+    position: fixed;
+    font-size: 15px;
+  }
+}

@@ -6,8 +6,8 @@
   position: relative;
   width: 16%;
   background-color: var(--light-gray);
-  border-top-right-radius: 30px; 
-  border-bottom-right-radius: 30px; 
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .buttonList {
@@ -15,4 +15,18 @@
   flex-direction: column;
 
   gap: 12px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    transition: left 0.4s ease;
+    width: 220px;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .containerMobileInactive {
+    left: -220px;
+  }
 }

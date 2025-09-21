@@ -104,3 +104,23 @@ export const createUser = createAsyncThunk(
     }
   }
 )
+
+export const createMockUsers = createAsyncThunk(
+  "users/createMockUsers",
+  async function (_, { rejectWithValue, dispatch }) {
+    try {
+      const response = await UserService.CreateMockUsers();
+
+      if (!response) {
+        throw new Error("Ошибка получения данных");
+      }
+
+      dispatch(getUsers());
+    } catch (error) {
+      if (error instanceof Error) {
+        return rejectWithValue(error.message);
+      }
+      return error;
+    }
+  }
+)

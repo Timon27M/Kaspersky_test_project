@@ -1,5 +1,6 @@
 .container {
   min-width: 350px;
+  max-width: 550px;
   background-color: var(--gray);
 
   color: var(--black);
@@ -33,4 +34,42 @@
   font-size: 19px;
   gap: 10px;
   margin-top: 10px;
+}
+
+@media (max-width: 850px) and (min-width: 375px) {
+  .container {
+    min-width: 290px;
+    max-width: 300px;
+  }
+
+
+  .nameBlock {
+  font-size: 19px;
+  gap: 6px;
+}
+
+.infoBlock {
+  font-size: 15px;
+  gap: 5px;
+  margin-top: 6px;
+}
+}
+
+@media (max-width: 375px) {
+  .container {
+    min-width: 210px;
+    max-width: 300px;
+  }
+
+
+  .nameBlock {
+  font-size: 19px;
+  gap: 6px;
+}
+
+.infoBlock {
+  font-size: 15px;
+  gap: 5px;
+  margin-top: 6px;
+}
 }

@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getUnknownUsers = exports.getTesterUsers = exports.getAnalyticsUsers = exports.getDevelopmentUsers = exports.getAccountingUsers = exports.getManagementUsers = exports.addMockUsers = exports.addUser = exports.getAllUsers = exports.updateUser = exports.getUser = void 0;
+exports.getUnknownUsers = exports.getTesterUsers = exports.getAnalyticsUsers = exports.getDevelopmentUsers = exports.getAccountingUsers = exports.getManagementUsers = exports.addMockUsers = exports.deleteUser = exports.addUser = exports.getAllUsers = exports.updateUser = exports.getUser = void 0;
 const mongodb_1 = require("mongodb");
 const BadRequestError_1 = __importDefault(require("../errors/BadRequestError"));
 const NotFoundError_1 = __importDefault(require("../errors/NotFoundError"));
@@ -32,7 +32,7 @@ const getUser = (req, res, next) => {
 };
 exports.getUser = getUser;
 const updateUser = (req, res, next) => {
-    const { name, email, surname, login, group } = req.body;
+    const { name, email, surname, login, group = "unknown" } = req.body;
     const { userId } = req.params;
     user_1.default.findByIdAndUpdate(userId, { name, email, surname, login, group }, {
         new: true,
@@ -66,7 +66,8 @@ const getAllUsers = (req, res, next) => {
 };
 exports.getAllUsers = getAllUsers;
 const addUser = (req, res, next) => {
-    const { name, email, login, surname, group = "unknown" } = req.body;
+    const body = req.body;
+    const { name, email, login, surname, group } = req.body;
     user_1.default.create({
         name,
         email,
@@ -85,6 +86,20 @@ const addUser = (req, res, next) => {
     });
 };
 exports.addUser = addUser;
+const deleteUser = (req, res, next) => {
+    const { userId } = req.params;
+    user_1.default.findByIdAndDelete(userId)
+        .orFail(() => {
+        throw new NotFoundError_1.default("Пользователь не найден");
+    })
+        .then((user) => {
+        res.send(user);
+    })
+        .catch((err) => {
+        return next(err);
+    });
+};
+exports.deleteUser = deleteUser;
 const addMockUsers = (req, res, next) => {
     user_1.default.find()
         .then((users) => {

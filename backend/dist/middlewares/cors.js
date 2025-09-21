@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const allowedCors = [
-    'http://localhost:3000',
+    'http://localhost:5173',
 ];
 const cors = (req, res, next) => {
     const { origin } = req.headers;
