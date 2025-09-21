@@ -31,6 +31,5 @@ export const { setUserData } = userSlice.actions;
 export const { reducer } = userSlice;
 
 //selectors
-
 export const getUserDataSelector = (state: RootState) => state.user.userData;
 export const getUserIdSelector = (state: RootState) => state.user.userData._id;

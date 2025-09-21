@@ -24,5 +24,4 @@ export const { setValue } = searchSlice.actions;
 export const { reducer } = searchSlice;
 
 // selectors
-
 export const getSearchValueSelector = (state: RootState) => state.search.value;
