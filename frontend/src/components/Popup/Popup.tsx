@@ -22,12 +22,13 @@ type TUserdd = {
   };
 
 function Popup({ setIsOpenPopup, isOpenPopup }: TProps) {
-  if (!isOpenPopup) return null;
   const dispatch = useAppDispatch();
 
   const methods = useForm<TUserWithoutId>({
     mode: "onBlur",
   });
+
+  if (!isOpenPopup) return null;
 
   const { handleSubmit } = methods;
 
