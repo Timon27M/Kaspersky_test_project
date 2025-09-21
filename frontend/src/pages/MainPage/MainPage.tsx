@@ -7,18 +7,24 @@ import Popup from "../../components/Popup/Popup";
 
 function MainPage() {
 
-  const [isOpenPopup, setIsOpenPopup] = useState(false)
+  const [isOpenPopup, setIsOpenPopup] = useState(false);
+  const [isActiveMobileNavBar, setIsActiveMobileNavBar] = useState(false);
 
-  function handleButtonClick() {
+  function handleButtonNavBarClick() {
+    setIsActiveMobileNavBar(!isActiveMobileNavBar)
+  }
+   
+  function handleButtonAddUserClick() {
     setIsOpenPopup(true)
   }
 
   return (
     <section className={styles.section}>
-      <NavBar />
+      <NavBar isActiveMobileNavBar={isActiveMobileNavBar}/>
       <UserCards />
       <Popup isOpenPopup={isOpenPopup} setIsOpenPopup={setIsOpenPopup}/>
-      <Button text={"+"} classname={styles.button} handleClick={handleButtonClick}/>
+      <Button text={"+"} classname={styles.buttonOpenPopup} handleClick={handleButtonAddUserClick}/>
+      <Button text={isActiveMobileNavBar ? "<" : ">"} classname={`${styles.buttonNavBar}`} handleClick={handleButtonNavBarClick}/>
     </section>
   );
 }

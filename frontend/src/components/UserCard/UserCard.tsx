@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import type { TUser, TUserGroup } from "../../assets/types";
+import type { TUserGroup } from "../../assets/types";
 import styles from "./UserCard.module.scss";
 
 type TProps = {

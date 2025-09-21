@@ -1,5 +1,3 @@
-import styles from './Button.module.scss'
-
 type TProps = {
     text: string;
     classname: string;

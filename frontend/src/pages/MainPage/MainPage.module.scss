@@ -4,7 +4,7 @@
    @include default-section;
 }
 
-.button {
+.buttonOpenPopup {
    position: fixed;
    top: 22px;
    right: 3%;
@@ -14,4 +14,23 @@
    &:hover {
       background-color: var(--black-hover);
    }
+}
+
+.buttonNavBar {
+   display: none;
+}
+
+@media (max-width: 850px) {
+   .buttonNavBar {
+      display: block;
+   position: fixed;
+   top: 22px;
+   left: 3%;
+   border-radius: 50%;
+   padding: 5px 12px 10px 12px;
+
+   &:hover {
+      background-color: var(--black-hover);
+   }
+}
 }

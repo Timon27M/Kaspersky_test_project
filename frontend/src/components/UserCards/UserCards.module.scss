@@ -15,12 +15,25 @@
   gap: 20px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
   align-content: start; 
+  justify-content: center;
 
   overflow-y: auto;
 
   border-top: 2px solid black;
   padding: 10px 20px;
   box-sizing: border-box;
+}
+
+@media (max-width: 850px) and (min-width: 375px) {
+  .cardList {
+grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  }
+}
+
+@media (max-width: 375px) {
+  .cardList {
+grid-template-columns: repeat(auto-fit, minmax(220px, max-content));
+  }
 }

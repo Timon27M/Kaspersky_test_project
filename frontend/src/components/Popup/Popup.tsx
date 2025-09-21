@@ -18,7 +18,7 @@ type TUserdd = {
     email: string;
     login: string;
     surname: string;
-    group?: TUserGroup | ""; // 👈 теперь пустая строка допустима
+    group?: TUserGroup | "";
   };
 
 function Popup({ setIsOpenPopup, isOpenPopup }: TProps) {
@@ -52,7 +52,7 @@ function Popup({ setIsOpenPopup, isOpenPopup }: TProps) {
       <div className={styles.overlay} onClick={handleOverlayClick}></div>
       <FormProvider {...methods}>
         <form className={styles.form} onSubmit={handleSubmit(submitForm)}>
-          <h2>Добавить нового пользователя</h2>
+          <h2 className={styles.title}>Добавить нового пользователя</h2>
           <div className={styles.inputBlock}>
             <p className={styles.inputText}>Имя:</p>
             <UserInfoInput name="name" required={true} />
@@ -70,7 +70,7 @@ function Popup({ setIsOpenPopup, isOpenPopup }: TProps) {
             <UserInfoInput name="login" required={true} />
           </div>
           <div className={styles.inputBlock}>
-            <p className={styles.inputText}>Группа:</p>
+            <p className={styles.inputText}>Группа (опционально):</p>
             <UserInfoInput name="group" />
           </div>
           <SubmitButton text="Сохранить" />

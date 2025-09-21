@@ -1,5 +1,5 @@
 .button {
-  min-width: 170px;
+  min-width: 175px;
   padding: 20px;
   font-size: 21px;
   border-radius: 18px;
@@ -19,4 +19,20 @@
 .buttonActive {
   border-right: 6px solid var(--light-blue);
   border-bottom: 6px solid var(--light-blue);
+}
+
+@media (max-width: 1200px) and (min-width: 975px) {
+  .button {
+    min-width: 140px;
+    padding: 15px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 975px) and (min-width: 850px) {
+  .button {
+    min-width: 120px;
+    padding: 10px;
+    font-size: 16px;
+  }
 }

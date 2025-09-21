@@ -8,3 +8,23 @@
         background-color: var(--black-hover);
     }
 }
+
+@media (max-width: 620px) and (min-width: 470px) {
+    .button {
+    width: 280px;
+    font-size: 20px;
+
+    margin-top: 60px;
+
+}
+}
+
+@media (max-width: 470px) {
+      .button {
+    width: 220px;
+    font-size: 20px;
+
+    margin-top: 60px;
+
+}
+}
