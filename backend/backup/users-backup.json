@@ -1,0 +1,2972 @@
+[
+  {
+    "_id": "68cfd290d2411a13c929f6dc",
+    "name": "Bertram",
+    "surname": "Murazik",
+    "login": "bertram.murazik",
+    "group": "accounting",
+    "email": "bertram_murazik32@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e0",
+    "name": "Camila",
+    "surname": "Parker",
+    "login": "camila_parker",
+    "group": "unknown",
+    "email": "camila_parker52@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6df",
+    "name": "Joelle",
+    "surname": "Thiel",
+    "login": "joelle.thiel70",
+    "group": "tester",
+    "email": "joelle.thiel@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e1",
+    "name": "Jonatan",
+    "surname": "Christiansen",
+    "login": "jonatan.christiansen53",
+    "group": "analytics",
+    "email": "jonatan.christiansen@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e5",
+    "name": "Orville",
+    "surname": "Mraz",
+    "login": "orville.mraz32",
+    "group": "unknown",
+    "email": "orville_mraz44@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e6",
+    "name": "Melyna",
+    "surname": "Yundt",
+    "login": "melyna.yundt",
+    "group": "unknown",
+    "email": "melyna_yundt@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e9",
+    "name": "Rhea",
+    "surname": "Nicolas",
+    "login": "rhea_nicolas",
+    "group": "unknown",
+    "email": "rhea_nicolas@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6eb",
+    "name": "Berniece",
+    "surname": "Mills-Kerluke",
+    "login": "berniece.mills-kerluke",
+    "group": "accounting",
+    "email": "berniece.mills-kerluke55@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6ec",
+    "name": "Norma",
+    "surname": "Marvin",
+    "login": "norma_marvin48",
+    "group": "management",
+    "email": "norma.marvin@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6ef",
+    "name": "Nannie",
+    "surname": "White",
+    "login": "nannie_white",
+    "group": "unknown",
+    "email": "nannie.white@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f2",
+    "name": "Alvah",
+    "surname": "Kemmer",
+    "login": "alvah_kemmer",
+    "group": "unknown",
+    "email": "alvah.kemmer95@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e3",
+    "name": "Abel",
+    "surname": "Harris",
+    "login": "abel.harris",
+    "group": "accounting",
+    "email": "abel_harris19@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e8",
+    "name": "Regan",
+    "surname": "Glover",
+    "login": "regan_glover39",
+    "group": "unknown",
+    "email": "regan_glover21@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6ea",
+    "name": "Dandre",
+    "surname": "Nader",
+    "login": "dandre.nader",
+    "group": "analytics",
+    "email": "dandre_nader52@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f0",
+    "name": "Twila",
+    "surname": "Zboncak",
+    "login": "twila_zboncak",
+    "group": "tester",
+    "email": "twila_zboncak64@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e2",
+    "name": "Mariana",
+    "surname": "Schumm",
+    "login": "mariana_schumm",
+    "group": "analytics",
+    "email": "mariana_schumm25@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e4",
+    "name": "Joelle",
+    "surname": "Cole",
+    "login": "joelle.cole38",
+    "group": "unknown",
+    "email": "joelle.cole@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f3",
+    "name": "Adriel",
+    "surname": "Wyman",
+    "login": "adriel_wyman98",
+    "group": "unknown",
+    "email": "adriel.wyman31@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f5",
+    "name": "Arlene",
+    "surname": "Reichert",
+    "login": "arlene_reichert28",
+    "group": "unknown",
+    "email": "arlene_reichert@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6de",
+    "name": "Rubye",
+    "surname": "Mitchell",
+    "login": "rubye_mitchell92",
+    "group": "tester",
+    "email": "rubye.mitchell21@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6e7",
+    "name": "Keith",
+    "surname": "Hamill",
+    "login": "keith_hamill",
+    "group": "accounting",
+    "email": "keith.hamill@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6dd",
+    "name": "Daron",
+    "surname": "Moen",
+    "login": "daron_moen81",
+    "group": "accounting",
+    "email": "daron_moen41@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6ed",
+    "name": "Zackery",
+    "surname": "Carroll",
+    "login": "zackery_carroll",
+    "group": "unknown",
+    "email": "zackery_carroll@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6ee",
+    "name": "Herta",
+    "surname": "Reichert",
+    "login": "herta.reichert",
+    "group": "unknown",
+    "email": "herta_reichert@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f1",
+    "name": "Birdie",
+    "surname": "Kemmer",
+    "login": "birdie.kemmer43",
+    "group": "tester",
+    "email": "birdie_kemmer@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f4",
+    "name": "Angelica",
+    "surname": "Schamberger",
+    "login": "angelica.schamberger",
+    "group": "unknown",
+    "email": "angelica_schamberger@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f6",
+    "name": "Greta",
+    "surname": "Labadie",
+    "login": "greta_labadie91",
+    "group": "unknown",
+    "email": "greta_labadie42@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f7",
+    "name": "Noe",
+    "surname": "Botsford",
+    "login": "noe_botsford",
+    "group": "unknown",
+    "email": "noe_botsford@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f8",
+    "name": "Gail",
+    "surname": "Dickinson",
+    "login": "gail_dickinson76",
+    "group": "management",
+    "email": "gail.dickinson@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6f9",
+    "name": "Patrick",
+    "surname": "Roberts",
+    "login": "patrick_roberts",
+    "group": "analytics",
+    "email": "patrick_roberts@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6fb",
+    "name": "Sterling",
+    "surname": "Powlowski",
+    "login": "sterling_powlowski",
+    "group": "unknown",
+    "email": "sterling.powlowski22@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6fd",
+    "name": "Erwin",
+    "surname": "Hills",
+    "login": "erwin_hills",
+    "group": "unknown",
+    "email": "erwin_hills7@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6ff",
+    "name": "Jacques",
+    "surname": "Prosacco",
+    "login": "jacques_prosacco",
+    "group": "unknown",
+    "email": "jacques_prosacco40@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f700",
+    "name": "Kasey",
+    "surname": "Denesik",
+    "login": "kasey.denesik",
+    "group": "analytics",
+    "email": "kasey.denesik80@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f702",
+    "name": "Matteo",
+    "surname": "Jakubowski",
+    "login": "matteo.jakubowski",
+    "group": "development",
+    "email": "matteo.jakubowski@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f701",
+    "name": "Bobby",
+    "surname": "Parisian",
+    "login": "bobby.parisian91",
+    "group": "unknown",
+    "email": "bobby_parisian@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f703",
+    "name": "Madonna",
+    "surname": "Pagac",
+    "login": "madonna_pagac44",
+    "group": "unknown",
+    "email": "madonna.pagac98@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f707",
+    "name": "Melba",
+    "surname": "Torphy",
+    "login": "melba.torphy",
+    "group": "management",
+    "email": "melba.torphy82@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f704",
+    "name": "Sage",
+    "surname": "Will",
+    "login": "sage_will17",
+    "group": "accounting",
+    "email": "sage_will@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f705",
+    "name": "Naomi",
+    "surname": "Turcotte",
+    "login": "naomi.turcotte4",
+    "group": "accounting",
+    "email": "naomi.turcotte18@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f706",
+    "name": "Sid",
+    "surname": "Leffler",
+    "login": "sid_leffler0",
+    "group": "unknown",
+    "email": "sid.leffler@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f708",
+    "name": "Gregorio",
+    "surname": "McDermott",
+    "login": "gregorio.mcdermott",
+    "group": "unknown",
+    "email": "gregorio_mcdermott91@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f70b",
+    "name": "Durward",
+    "surname": "Terry",
+    "login": "durward.terry70",
+    "group": "unknown",
+    "email": "durward_terry51@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f70c",
+    "name": "Albertha",
+    "surname": "Morissette",
+    "login": "albertha.morissette10",
+    "group": "analytics",
+    "email": "albertha.morissette@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f709",
+    "name": "Ward",
+    "surname": "Gusikowski",
+    "login": "ward.gusikowski",
+    "group": "management",
+    "email": "ward.gusikowski@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f70e",
+    "name": "Shaniya",
+    "surname": "Armstrong",
+    "login": "shaniya.armstrong32",
+    "group": "tester",
+    "email": "shaniya.armstrong83@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f711",
+    "name": "Cooper",
+    "surname": "Gulgowski",
+    "login": "cooper.gulgowski15",
+    "group": "development",
+    "email": "cooper.gulgowski76@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f70f",
+    "name": "Vada",
+    "surname": "Sporer",
+    "login": "vada.sporer",
+    "group": "unknown",
+    "email": "vada_sporer69@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f70a",
+    "name": "Avery",
+    "surname": "Parker",
+    "login": "avery.parker",
+    "group": "accounting",
+    "email": "avery_parker@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f70d",
+    "name": "Mohamed",
+    "surname": "Dach",
+    "login": "mohamed_dach",
+    "group": "unknown",
+    "email": "mohamed_dach82@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f710",
+    "name": "Amara",
+    "surname": "Schamberger",
+    "login": "amara.schamberger",
+    "group": "accounting",
+    "email": "amara_schamberger85@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6fe",
+    "name": "Jeromy",
+    "surname": "Collins",
+    "login": "jeromy.collins",
+    "group": "management",
+    "email": "jeromy.collins44@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6fa",
+    "name": "Shany",
+    "surname": "Buckridge",
+    "login": "shany_buckridge57",
+    "group": "management",
+    "email": "shany.buckridge@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f6fc",
+    "name": "Gina",
+    "surname": "Wisozk-Langworth",
+    "login": "gina_wisozk-langworth18",
+    "group": "unknown",
+    "email": "gina.wisozk-langworth@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f712",
+    "name": "Brett",
+    "surname": "Huel",
+    "login": "brett_huel",
+    "group": "development",
+    "email": "brett.huel24@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f71e",
+    "name": "Rosalia",
+    "surname": "Kuvalis",
+    "login": "rosalia_kuvalis",
+    "group": "unknown",
+    "email": "rosalia_kuvalis95@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f724",
+    "name": "Ettie",
+    "surname": "O'Keefe",
+    "login": "ettie.okeefe94",
+    "group": "unknown",
+    "email": "ettie_okeefe@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f722",
+    "name": "Alec",
+    "surname": "Halvorson",
+    "login": "alec.halvorson62",
+    "group": "management",
+    "email": "alec.halvorson31@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f729",
+    "name": "Jordy",
+    "surname": "Stokes",
+    "login": "jordy_stokes69",
+    "group": "unknown",
+    "email": "jordy_stokes30@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f72a",
+    "name": "Jeramy",
+    "surname": "Oberbrunner",
+    "login": "jeramy_oberbrunner",
+    "group": "unknown",
+    "email": "jeramy_oberbrunner84@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f72c",
+    "name": "Pearline",
+    "surname": "Hammes",
+    "login": "pearline.hammes36",
+    "group": "development",
+    "email": "pearline.hammes12@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f72e",
+    "name": "Estelle",
+    "surname": "Kshlerin",
+    "login": "estelle_kshlerin43",
+    "group": "unknown",
+    "email": "estelle_kshlerin@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f72f",
+    "name": "Hallie",
+    "surname": "Berge",
+    "login": "hallie.berge46",
+    "group": "tester",
+    "email": "hallie.berge@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f72d",
+    "name": "Cade",
+    "surname": "Swift",
+    "login": "cade_swift",
+    "group": "unknown",
+    "email": "cade.swift@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f731",
+    "name": "Leila",
+    "surname": "Lemke",
+    "login": "leila_lemke",
+    "group": "management",
+    "email": "leila_lemke@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f730",
+    "name": "Jayden",
+    "surname": "Hintz",
+    "login": "jayden.hintz",
+    "group": "unknown",
+    "email": "jayden_hintz@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f732",
+    "name": "Frankie",
+    "surname": "Bashirian",
+    "login": "frankie.bashirian",
+    "group": "analytics",
+    "email": "frankie_bashirian57@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f733",
+    "name": "Casper",
+    "surname": "Wilderman",
+    "login": "casper.wilderman4",
+    "group": "unknown",
+    "email": "casper.wilderman@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f734",
+    "name": "Korey",
+    "surname": "Reinger",
+    "login": "korey.reinger0",
+    "group": "analytics",
+    "email": "korey_reinger49@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f735",
+    "name": "Urban",
+    "surname": "Aufderhar",
+    "login": "urban_aufderhar10",
+    "group": "unknown",
+    "email": "urban.aufderhar1@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f737",
+    "name": "Electa",
+    "surname": "Wintheiser",
+    "login": "electa_wintheiser15",
+    "group": "tester",
+    "email": "electa.wintheiser60@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f739",
+    "name": "Alvera",
+    "surname": "Schaden",
+    "login": "alvera_schaden59",
+    "group": "tester",
+    "email": "alvera_schaden@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f736",
+    "name": "Savanna",
+    "surname": "Hilll",
+    "login": "savanna.hilll",
+    "group": "accounting",
+    "email": "savanna.hilll@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f73b",
+    "name": "Rene",
+    "surname": "Koss",
+    "login": "rene.koss",
+    "group": "unknown",
+    "email": "rene.koss@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f738",
+    "name": "Geraldine",
+    "surname": "Huels",
+    "login": "geraldine_huels3",
+    "group": "analytics",
+    "email": "geraldine_huels@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f73c",
+    "name": "Kelley",
+    "surname": "Schmitt",
+    "login": "kelley_schmitt6",
+    "group": "unknown",
+    "email": "kelley_schmitt26@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f73a",
+    "name": "Dereck",
+    "surname": "Little",
+    "login": "dereck_little",
+    "group": "development",
+    "email": "dereck.little@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f73e",
+    "name": "Fernando",
+    "surname": "Grimes",
+    "login": "fernando_grimes",
+    "group": "unknown",
+    "email": "fernando.grimes35@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f717",
+    "name": "Gregorio",
+    "surname": "Zieme",
+    "login": "gregorio.zieme48",
+    "group": "unknown",
+    "email": "gregorio.zieme@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f73d",
+    "name": "Ludie",
+    "surname": "Schaden",
+    "login": "ludie.schaden",
+    "group": "unknown",
+    "email": "ludie.schaden@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f73f",
+    "name": "Felton",
+    "surname": "Marvin",
+    "login": "felton_marvin",
+    "group": "unknown",
+    "email": "felton.marvin78@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f715",
+    "name": "Erich",
+    "surname": "Bosco",
+    "login": "erich.bosco",
+    "group": "unknown",
+    "email": "erich_bosco@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f719",
+    "name": "Deangelo",
+    "surname": "Roberts",
+    "login": "deangelo.roberts",
+    "group": "management",
+    "email": "deangelo_roberts@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f71a",
+    "name": "Roslyn",
+    "surname": "O'Conner",
+    "login": "roslyn_oconner",
+    "group": "accounting",
+    "email": "roslyn.oconner81@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f740",
+    "name": "Ida",
+    "surname": "Crona",
+    "login": "ida.crona",
+    "group": "development",
+    "email": "ida_crona5@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f71b",
+    "name": "Buford",
+    "surname": "Murazik",
+    "login": "buford_murazik94",
+    "group": "analytics",
+    "email": "buford.murazik38@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f71d",
+    "name": "Derrick",
+    "surname": "Wiegand",
+    "login": "derrick_wiegand81",
+    "group": "unknown",
+    "email": "derrick.wiegand@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f718",
+    "name": "Micah",
+    "surname": "Okuneva",
+    "login": "micah.okuneva25",
+    "group": "unknown",
+    "email": "micah.okuneva38@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f720",
+    "name": "Antone",
+    "surname": "Brekke",
+    "login": "antone.brekke",
+    "group": "management",
+    "email": "antone.brekke28@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f741",
+    "name": "Arlo",
+    "surname": "Ryan",
+    "login": "arlo.ryan",
+    "group": "management",
+    "email": "arlo_ryan21@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f725",
+    "name": "Anahi",
+    "surname": "Aufderhar",
+    "login": "anahi_aufderhar",
+    "group": "development",
+    "email": "anahi.aufderhar37@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f721",
+    "name": "Velda",
+    "surname": "Auer",
+    "login": "velda_auer93",
+    "group": "accounting",
+    "email": "velda_auer@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f71c",
+    "name": "Garnet",
+    "surname": "Sawayn",
+    "login": "garnet_sawayn62",
+    "group": "unknown",
+    "email": "garnet_sawayn@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f723",
+    "name": "Vito",
+    "surname": "Corwin",
+    "login": "vito_corwin84",
+    "group": "unknown",
+    "email": "vito_corwin@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f743",
+    "name": "Camilla",
+    "surname": "Dickens",
+    "login": "camilla_dickens35",
+    "group": "unknown",
+    "email": "camilla_dickens@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f727",
+    "name": "Alisa",
+    "surname": "Aufderhar",
+    "login": "alisa.aufderhar35",
+    "group": "unknown",
+    "email": "alisa.aufderhar@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f726",
+    "name": "Dangelo",
+    "surname": "Erdman",
+    "login": "dangelo.erdman",
+    "group": "accounting",
+    "email": "dangelo.erdman2@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f728",
+    "name": "Danial",
+    "surname": "Kshlerin",
+    "login": "danial.kshlerin",
+    "group": "analytics",
+    "email": "danial_kshlerin95@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f714",
+    "name": "Wilfred",
+    "surname": "Haag",
+    "login": "wilfred.haag",
+    "group": "unknown",
+    "email": "wilfred.haag99@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f716",
+    "name": "Benton",
+    "surname": "Grimes",
+    "login": "benton_grimes91",
+    "group": "accounting",
+    "email": "benton.grimes44@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f744",
+    "name": "Dariana",
+    "surname": "Will",
+    "login": "dariana_will",
+    "group": "analytics",
+    "email": "dariana_will38@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f742",
+    "name": "Stevie",
+    "surname": "Schowalter",
+    "login": "stevie_schowalter",
+    "group": "management",
+    "email": "stevie_schowalter25@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f745",
+    "name": "Gabrielle",
+    "surname": "Collins",
+    "login": "gabrielle.collins74",
+    "group": "unknown",
+    "email": "gabrielle.collins95@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f71f",
+    "name": "August",
+    "surname": "Keeling",
+    "login": "august.keeling",
+    "group": "analytics",
+    "email": "august_keeling@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f746",
+    "name": "Ike",
+    "surname": "Walsh",
+    "login": "ike.walsh",
+    "group": "unknown",
+    "email": "ike_walsh95@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f72b",
+    "name": "Caesar",
+    "surname": "Reynolds",
+    "login": "caesar.reynolds",
+    "group": "management",
+    "email": "caesar.reynolds@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f747",
+    "name": "Dangelo",
+    "surname": "Koch",
+    "login": "dangelo.koch",
+    "group": "accounting",
+    "email": "dangelo.koch74@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f713",
+    "name": "Margaretta",
+    "surname": "Stoltenberg",
+    "login": "margaretta_stoltenberg47",
+    "group": "analytics",
+    "email": "margaretta_stoltenberg87@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f74a",
+    "name": "Ophelia",
+    "surname": "Hamill",
+    "login": "ophelia.hamill",
+    "group": "development",
+    "email": "ophelia_hamill@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f74b",
+    "name": "Vance",
+    "surname": "Cartwright",
+    "login": "vance.cartwright13",
+    "group": "analytics",
+    "email": "vance.cartwright30@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f74c",
+    "name": "Ezequiel",
+    "surname": "Dickinson",
+    "login": "ezequiel.dickinson",
+    "group": "tester",
+    "email": "ezequiel.dickinson89@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f74d",
+    "name": "Josianne",
+    "surname": "McDermott",
+    "login": "josianne.mcdermott4",
+    "group": "management",
+    "email": "josianne.mcdermott7@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f74e",
+    "name": "Genevieve",
+    "surname": "Smitham",
+    "login": "genevieve.smitham",
+    "group": "management",
+    "email": "genevieve_smitham67@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f750",
+    "name": "Moshe",
+    "surname": "Kohler",
+    "login": "moshe.kohler50",
+    "group": "analytics",
+    "email": "moshe.kohler58@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f74f",
+    "name": "Brianne",
+    "surname": "Bartoletti",
+    "login": "brianne_bartoletti41",
+    "group": "accounting",
+    "email": "brianne_bartoletti@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f751",
+    "name": "Raven",
+    "surname": "Connelly",
+    "login": "raven.connelly",
+    "group": "unknown",
+    "email": "raven.connelly@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f752",
+    "name": "Eileen",
+    "surname": "Stehr",
+    "login": "eileen.stehr",
+    "group": "unknown",
+    "email": "eileen.stehr68@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f753",
+    "name": "Aurelio",
+    "surname": "Hegmann",
+    "login": "aurelio.hegmann",
+    "group": "tester",
+    "email": "aurelio.hegmann31@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f755",
+    "name": "Edgar",
+    "surname": "Rempel",
+    "login": "edgar.rempel94",
+    "group": "unknown",
+    "email": "edgar.rempel38@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f754",
+    "name": "Emory",
+    "surname": "Durgan",
+    "login": "emory_durgan51",
+    "group": "unknown",
+    "email": "emory.durgan69@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f756",
+    "name": "Dejuan",
+    "surname": "Kertzmann",
+    "login": "dejuan.kertzmann18",
+    "group": "unknown",
+    "email": "dejuan.kertzmann@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f757",
+    "name": "Rossie",
+    "surname": "Turner",
+    "login": "rossie_turner45",
+    "group": "analytics",
+    "email": "rossie.turner94@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f759",
+    "name": "Osbaldo",
+    "surname": "Ondricka",
+    "login": "osbaldo.ondricka24",
+    "group": "accounting",
+    "email": "osbaldo.ondricka@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f758",
+    "name": "Jordan",
+    "surname": "Mayer",
+    "login": "jordan.mayer30",
+    "group": "unknown",
+    "email": "jordan.mayer@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f75a",
+    "name": "Serenity",
+    "surname": "McDermott",
+    "login": "serenity_mcdermott",
+    "group": "management",
+    "email": "serenity_mcdermott30@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f75c",
+    "name": "Keven",
+    "surname": "Wolf",
+    "login": "keven.wolf",
+    "group": "unknown",
+    "email": "keven_wolf@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f75b",
+    "name": "Monserrate",
+    "surname": "Grant",
+    "login": "monserrate_grant",
+    "group": "unknown",
+    "email": "monserrate.grant74@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f75e",
+    "name": "Emilio",
+    "surname": "Swift",
+    "login": "emilio.swift61",
+    "group": "accounting",
+    "email": "emilio_swift6@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f75d",
+    "name": "Coy",
+    "surname": "Boyle",
+    "login": "coy_boyle",
+    "group": "unknown",
+    "email": "coy_boyle60@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f75f",
+    "name": "Ora",
+    "surname": "Will",
+    "login": "ora_will",
+    "group": "accounting",
+    "email": "ora_will@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f760",
+    "name": "Julio",
+    "surname": "Conn",
+    "login": "julio_conn",
+    "group": "management",
+    "email": "julio.conn56@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f761",
+    "name": "Dulce",
+    "surname": "Denesik",
+    "login": "dulce.denesik27",
+    "group": "unknown",
+    "email": "dulce_denesik48@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f762",
+    "name": "Edgardo",
+    "surname": "Yundt",
+    "login": "edgardo_yundt",
+    "group": "tester",
+    "email": "edgardo_yundt2@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f763",
+    "name": "Adalberto",
+    "surname": "Upton",
+    "login": "adalberto_upton19",
+    "group": "unknown",
+    "email": "adalberto.upton@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f765",
+    "name": "Clarabelle",
+    "surname": "Franecki",
+    "login": "clarabelle.franecki",
+    "group": "unknown",
+    "email": "clarabelle_franecki@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f764",
+    "name": "Stefanie",
+    "surname": "Wehner",
+    "login": "stefanie_wehner39",
+    "group": "unknown",
+    "email": "stefanie_wehner10@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f766",
+    "name": "Marie",
+    "surname": "Zieme",
+    "login": "marie.zieme",
+    "group": "unknown",
+    "email": "marie.zieme63@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f767",
+    "name": "Micaela",
+    "surname": "Smith",
+    "login": "micaela.smith",
+    "group": "unknown",
+    "email": "micaela.smith43@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f768",
+    "name": "Nathanial",
+    "surname": "Kris",
+    "login": "nathanial.kris",
+    "group": "unknown",
+    "email": "nathanial.kris89@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f769",
+    "name": "Ludwig",
+    "surname": "Heathcote",
+    "login": "ludwig.heathcote",
+    "group": "unknown",
+    "email": "ludwig_heathcote63@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f76a",
+    "name": "Crawford",
+    "surname": "Hirthe",
+    "login": "crawford.hirthe",
+    "group": "unknown",
+    "email": "crawford_hirthe@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f76b",
+    "name": "Scarlett",
+    "surname": "Koepp",
+    "login": "scarlett.koepp",
+    "group": "development",
+    "email": "scarlett.koepp@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f76c",
+    "name": "Heidi",
+    "surname": "Kerluke",
+    "login": "heidi_kerluke27",
+    "group": "tester",
+    "email": "heidi_kerluke90@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f76d",
+    "name": "Novella",
+    "surname": "Powlowski",
+    "login": "novella.powlowski",
+    "group": "unknown",
+    "email": "novella.powlowski58@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f76e",
+    "name": "Jalon",
+    "surname": "Littel",
+    "login": "jalon.littel",
+    "group": "unknown",
+    "email": "jalon_littel45@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f76f",
+    "name": "Thaddeus",
+    "surname": "Streich",
+    "login": "thaddeus.streich25",
+    "group": "unknown",
+    "email": "thaddeus_streich29@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f770",
+    "name": "Jany",
+    "surname": "Bogan-Hagenes",
+    "login": "jany.bogan-hagenes",
+    "group": "unknown",
+    "email": "jany.bogan-hagenes85@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f771",
+    "name": "Coleman",
+    "surname": "VonRueden",
+    "login": "coleman_vonrueden10",
+    "group": "unknown",
+    "email": "coleman_vonrueden84@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f772",
+    "name": "Flossie",
+    "surname": "Kertzmann-Wisozk",
+    "login": "flossie.kertzmann-wisozk18",
+    "group": "unknown",
+    "email": "flossie.kertzmann-wisozk@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f773",
+    "name": "Abbigail",
+    "surname": "Ryan",
+    "login": "abbigail_ryan",
+    "group": "unknown",
+    "email": "abbigail_ryan78@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f774",
+    "name": "Virginie",
+    "surname": "Schroeder",
+    "login": "virginie.schroeder",
+    "group": "unknown",
+    "email": "virginie_schroeder@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f775",
+    "name": "Keon",
+    "surname": "Smitham",
+    "login": "keon.smitham39",
+    "group": "unknown",
+    "email": "keon.smitham97@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f776",
+    "name": "Amalia",
+    "surname": "Altenwerth",
+    "login": "amalia_altenwerth66",
+    "group": "management",
+    "email": "amalia_altenwerth57@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f777",
+    "name": "Shanna",
+    "surname": "Williamson",
+    "login": "shanna.williamson",
+    "group": "unknown",
+    "email": "shanna_williamson96@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f778",
+    "name": "Rae",
+    "surname": "Jones",
+    "login": "rae.jones55",
+    "group": "unknown",
+    "email": "rae_jones96@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f779",
+    "name": "Jaclyn",
+    "surname": "Schiller",
+    "login": "jaclyn_schiller",
+    "group": "tester",
+    "email": "jaclyn_schiller20@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f77a",
+    "name": "Jaycee",
+    "surname": "Wyman",
+    "login": "jaycee.wyman",
+    "group": "development",
+    "email": "jaycee.wyman45@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f77b",
+    "name": "Valentina",
+    "surname": "Schuster",
+    "login": "valentina.schuster",
+    "group": "unknown",
+    "email": "valentina.schuster66@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f77c",
+    "name": "Jasen",
+    "surname": "Pfeffer",
+    "login": "jasen.pfeffer26",
+    "group": "unknown",
+    "email": "jasen_pfeffer@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f77d",
+    "name": "Alexanne",
+    "surname": "Smith",
+    "login": "alexanne.smith",
+    "group": "unknown",
+    "email": "alexanne.smith@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f77e",
+    "name": "Reed",
+    "surname": "Franecki",
+    "login": "reed_franecki81",
+    "group": "unknown",
+    "email": "reed_franecki41@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f77f",
+    "name": "Edmund",
+    "surname": "Skiles",
+    "login": "edmund_skiles",
+    "group": "tester",
+    "email": "edmund.skiles@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f780",
+    "name": "Oren",
+    "surname": "Bartoletti",
+    "login": "oren_bartoletti49",
+    "group": "management",
+    "email": "oren_bartoletti@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f781",
+    "name": "Gladyce",
+    "surname": "Walter",
+    "login": "gladyce_walter",
+    "group": "accounting",
+    "email": "gladyce_walter@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f782",
+    "name": "Percival",
+    "surname": "Lang",
+    "login": "percival_lang",
+    "group": "unknown",
+    "email": "percival.lang@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f783",
+    "name": "Orpha",
+    "surname": "Rodriguez",
+    "login": "orpha_rodriguez39",
+    "group": "analytics",
+    "email": "orpha.rodriguez@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f784",
+    "name": "Larry",
+    "surname": "Bashirian",
+    "login": "larry_bashirian",
+    "group": "development",
+    "email": "larry.bashirian@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f785",
+    "name": "Kelvin",
+    "surname": "Purdy",
+    "login": "kelvin.purdy",
+    "group": "unknown",
+    "email": "kelvin_purdy@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f786",
+    "name": "Ollie",
+    "surname": "Labadie",
+    "login": "ollie_labadie",
+    "group": "tester",
+    "email": "ollie_labadie60@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f787",
+    "name": "Viola",
+    "surname": "Leannon",
+    "login": "viola.leannon93",
+    "group": "unknown",
+    "email": "viola.leannon@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f788",
+    "name": "Alicia",
+    "surname": "Ritchie",
+    "login": "alicia.ritchie",
+    "group": "unknown",
+    "email": "alicia.ritchie18@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f789",
+    "name": "Willard",
+    "surname": "Schuster",
+    "login": "willard_schuster55",
+    "group": "unknown",
+    "email": "willard_schuster94@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f78a",
+    "name": "Deja",
+    "surname": "Little",
+    "login": "deja.little57",
+    "group": "development",
+    "email": "deja.little@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f78b",
+    "name": "Ole",
+    "surname": "Morissette",
+    "login": "ole_morissette96",
+    "group": "unknown",
+    "email": "ole.morissette@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f78c",
+    "name": "Junius",
+    "surname": "O'Conner",
+    "login": "junius.oconner88",
+    "group": "analytics",
+    "email": "junius_oconner@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f78d",
+    "name": "Allie",
+    "surname": "Simonis",
+    "login": "allie.simonis",
+    "group": "analytics",
+    "email": "allie.simonis@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f78e",
+    "name": "Kenna",
+    "surname": "Boyle",
+    "login": "kenna.boyle41",
+    "group": "tester",
+    "email": "kenna_boyle@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f78f",
+    "name": "Ned",
+    "surname": "Jaskolski",
+    "login": "ned_jaskolski",
+    "group": "unknown",
+    "email": "ned.jaskolski44@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f790",
+    "name": "Cale",
+    "surname": "Ortiz",
+    "login": "cale.ortiz37",
+    "group": "unknown",
+    "email": "cale_ortiz65@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f791",
+    "name": "Malinda",
+    "surname": "Sipes",
+    "login": "malinda_sipes90",
+    "group": "development",
+    "email": "malinda_sipes82@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f792",
+    "name": "Audrey",
+    "surname": "Morar",
+    "login": "audrey_morar",
+    "group": "management",
+    "email": "audrey_morar83@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f793",
+    "name": "Caden",
+    "surname": "Mayer",
+    "login": "caden.mayer76",
+    "group": "analytics",
+    "email": "caden.mayer@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f795",
+    "name": "Maida",
+    "surname": "Bosco",
+    "login": "maida.bosco64",
+    "group": "unknown",
+    "email": "maida_bosco17@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f794",
+    "name": "Destiny",
+    "surname": "Jacobs",
+    "login": "destiny.jacobs",
+    "group": "development",
+    "email": "destiny.jacobs94@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f796",
+    "name": "Colton",
+    "surname": "Lakin",
+    "login": "colton_lakin",
+    "group": "unknown",
+    "email": "colton_lakin@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f797",
+    "name": "Nash",
+    "surname": "Ryan",
+    "login": "nash_ryan",
+    "group": "unknown",
+    "email": "nash_ryan@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f798",
+    "name": "Giovanna",
+    "surname": "Sawayn",
+    "login": "giovanna.sawayn",
+    "group": "unknown",
+    "email": "giovanna.sawayn53@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f799",
+    "name": "Cole",
+    "surname": "Reynolds",
+    "login": "cole.reynolds",
+    "group": "unknown",
+    "email": "cole.reynolds@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f79a",
+    "name": "Laury",
+    "surname": "Baumbach",
+    "login": "laury.baumbach18",
+    "group": "development",
+    "email": "laury_baumbach47@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f79b",
+    "name": "Leta",
+    "surname": "Bergstrom",
+    "login": "leta.bergstrom39",
+    "group": "management",
+    "email": "leta_bergstrom90@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f79c",
+    "name": "Ressie",
+    "surname": "Denesik",
+    "login": "ressie.denesik32",
+    "group": "unknown",
+    "email": "ressie.denesik43@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f79e",
+    "name": "Tiara",
+    "surname": "Strosin",
+    "login": "tiara.strosin",
+    "group": "unknown",
+    "email": "tiara_strosin@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f79d",
+    "name": "Elmo",
+    "surname": "Quigley",
+    "login": "elmo_quigley28",
+    "group": "unknown",
+    "email": "elmo.quigley@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f79f",
+    "name": "Ernestina",
+    "surname": "Ortiz",
+    "login": "ernestina_ortiz",
+    "group": "analytics",
+    "email": "ernestina.ortiz@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a0",
+    "name": "Noemi",
+    "surname": "Braun",
+    "login": "noemi.braun37",
+    "group": "analytics",
+    "email": "noemi.braun@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a1",
+    "name": "Otto",
+    "surname": "Flatley",
+    "login": "otto.flatley28",
+    "group": "analytics",
+    "email": "otto_flatley69@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a2",
+    "name": "Richmond",
+    "surname": "Gottlieb",
+    "login": "richmond_gottlieb63",
+    "group": "development",
+    "email": "richmond.gottlieb85@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a3",
+    "name": "Justina",
+    "surname": "Hayes",
+    "login": "justina_hayes33",
+    "group": "analytics",
+    "email": "justina_hayes@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a4",
+    "name": "Shanna",
+    "surname": "Beatty-Gulgowski",
+    "login": "shanna_beatty-gulgowski88",
+    "group": "unknown",
+    "email": "shanna_beatty-gulgowski@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a5",
+    "name": "Salvatore",
+    "surname": "Smith",
+    "login": "salvatore_smith50",
+    "group": "unknown",
+    "email": "salvatore.smith9@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a6",
+    "name": "Lila",
+    "surname": "Hudson-Ryan",
+    "login": "lila_hudson-ryan",
+    "group": "unknown",
+    "email": "lila_hudson-ryan@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a7",
+    "name": "Jorge",
+    "surname": "Weissnat",
+    "login": "jorge.weissnat19",
+    "group": "unknown",
+    "email": "jorge_weissnat@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a8",
+    "name": "Arnold",
+    "surname": "King",
+    "login": "arnold.king53",
+    "group": "unknown",
+    "email": "arnold.king48@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7a9",
+    "name": "Gardner",
+    "surname": "Dooley",
+    "login": "gardner.dooley5",
+    "group": "unknown",
+    "email": "gardner_dooley@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7aa",
+    "name": "Fred",
+    "surname": "Hoeger",
+    "login": "fred_hoeger",
+    "group": "unknown",
+    "email": "fred.hoeger@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ab",
+    "name": "Christa",
+    "surname": "Jakubowski",
+    "login": "christa_jakubowski",
+    "group": "unknown",
+    "email": "christa_jakubowski30@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ac",
+    "name": "Verna",
+    "surname": "Mitchell-Muller",
+    "login": "verna.mitchell-muller65",
+    "group": "development",
+    "email": "verna_mitchell-muller70@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ad",
+    "name": "Joelle",
+    "surname": "Schowalter",
+    "login": "joelle_schowalter40",
+    "group": "development",
+    "email": "joelle.schowalter82@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ae",
+    "name": "Anastasia",
+    "surname": "Parker",
+    "login": "anastasia_parker51",
+    "group": "unknown",
+    "email": "anastasia_parker81@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7af",
+    "name": "Chadrick",
+    "surname": "Goodwin",
+    "login": "chadrick_goodwin",
+    "group": "accounting",
+    "email": "chadrick.goodwin83@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b0",
+    "name": "Deshaun",
+    "surname": "Green",
+    "login": "deshaun.green",
+    "group": "unknown",
+    "email": "deshaun_green98@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b1",
+    "name": "Jovany",
+    "surname": "Mitchell",
+    "login": "jovany.mitchell6",
+    "group": "development",
+    "email": "jovany.mitchell20@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b2",
+    "name": "Toney",
+    "surname": "Nitzsche",
+    "login": "toney_nitzsche36",
+    "group": "unknown",
+    "email": "toney.nitzsche64@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b3",
+    "name": "Cora",
+    "surname": "Leuschke",
+    "login": "cora_leuschke",
+    "group": "unknown",
+    "email": "cora.leuschke@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b4",
+    "name": "Devin",
+    "surname": "Lubowitz",
+    "login": "devin.lubowitz",
+    "group": "tester",
+    "email": "devin.lubowitz56@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f748",
+    "name": "Frieda",
+    "surname": "Cormier",
+    "login": "frieda.cormier",
+    "group": "accounting",
+    "email": "frieda_cormier@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b6",
+    "name": "Carrie",
+    "surname": "Blick",
+    "login": "carrie_blick15",
+    "group": "accounting",
+    "email": "carrie.blick@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b7",
+    "name": "Brenden",
+    "surname": "Powlowski",
+    "login": "brenden_powlowski",
+    "group": "unknown",
+    "email": "brenden_powlowski15@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b8",
+    "name": "Dale",
+    "surname": "Hegmann",
+    "login": "dale.hegmann49",
+    "group": "unknown",
+    "email": "dale_hegmann@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b9",
+    "name": "Vince",
+    "surname": "Swaniawski",
+    "login": "vince.swaniawski",
+    "group": "analytics",
+    "email": "vince_swaniawski@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ba",
+    "name": "Art",
+    "surname": "Parker",
+    "login": "art_parker",
+    "group": "unknown",
+    "email": "art_parker56@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7bb",
+    "name": "Annabelle",
+    "surname": "Wolff",
+    "login": "annabelle_wolff",
+    "group": "unknown",
+    "email": "annabelle.wolff34@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7bc",
+    "name": "Ole",
+    "surname": "Kuphal",
+    "login": "ole_kuphal4",
+    "group": "accounting",
+    "email": "ole.kuphal48@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f749",
+    "name": "Alanna",
+    "surname": "Gibson",
+    "login": "alanna_gibson23",
+    "group": "unknown",
+    "email": "alanna.gibson@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7be",
+    "name": "Kayley",
+    "surname": "Gusikowski",
+    "login": "kayley.gusikowski84",
+    "group": "development",
+    "email": "kayley.gusikowski@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7bf",
+    "name": "Molly",
+    "surname": "Toy",
+    "login": "molly.toy87",
+    "group": "unknown",
+    "email": "molly_toy68@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c0",
+    "name": "Thelma",
+    "surname": "Stroman",
+    "login": "thelma.stroman33",
+    "group": "unknown",
+    "email": "thelma_stroman@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c1",
+    "name": "Eino",
+    "surname": "Block",
+    "login": "eino_block28",
+    "group": "unknown",
+    "email": "eino_block28@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c2",
+    "name": "Jarred",
+    "surname": "Bednar",
+    "login": "jarred_bednar29",
+    "group": "accounting",
+    "email": "jarred.bednar71@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c3",
+    "name": "Barney",
+    "surname": "Homenick",
+    "login": "barney_homenick32",
+    "group": "management",
+    "email": "barney.homenick@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c4",
+    "name": "Hettie",
+    "surname": "Botsford",
+    "login": "hettie_botsford42",
+    "group": "analytics",
+    "email": "hettie_botsford58@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c5",
+    "name": "Dayana",
+    "surname": "Kris",
+    "login": "dayana.kris",
+    "group": "development",
+    "email": "dayana_kris@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c6",
+    "name": "Ian",
+    "surname": "Padberg",
+    "login": "ian.padberg86",
+    "group": "accounting",
+    "email": "ian.padberg@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c7",
+    "name": "Newell",
+    "surname": "Bosco",
+    "login": "newell_bosco39",
+    "group": "accounting",
+    "email": "newell.bosco@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c8",
+    "name": "Parker",
+    "surname": "Bruen",
+    "login": "parker.bruen44",
+    "group": "development",
+    "email": "parker.bruen23@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7c9",
+    "name": "Richmond",
+    "surname": "Weimann",
+    "login": "richmond_weimann",
+    "group": "tester",
+    "email": "richmond_weimann@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ca",
+    "name": "Nella",
+    "surname": "Johns",
+    "login": "nella_johns59",
+    "group": "accounting",
+    "email": "nella.johns28@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7cb",
+    "name": "Margarett",
+    "surname": "Harber",
+    "login": "margarett.harber",
+    "group": "analytics",
+    "email": "margarett.harber@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7cc",
+    "name": "Hudson",
+    "surname": "Sipes",
+    "login": "hudson_sipes",
+    "group": "accounting",
+    "email": "hudson_sipes@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7cd",
+    "name": "Jamal",
+    "surname": "Waters",
+    "login": "jamal.waters",
+    "group": "analytics",
+    "email": "jamal.waters12@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ce",
+    "name": "Noelia",
+    "surname": "Kunde",
+    "login": "noelia_kunde",
+    "group": "unknown",
+    "email": "noelia_kunde21@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7cf",
+    "name": "Camryn",
+    "surname": "Ratke",
+    "login": "camryn_ratke95",
+    "group": "unknown",
+    "email": "camryn.ratke60@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d0",
+    "name": "Vada",
+    "surname": "Mosciski",
+    "login": "vada.mosciski87",
+    "group": "analytics",
+    "email": "vada.mosciski@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d1",
+    "name": "Allan",
+    "surname": "Senger",
+    "login": "allan_senger47",
+    "group": "unknown",
+    "email": "allan_senger@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d2",
+    "name": "Elva",
+    "surname": "Cruickshank",
+    "login": "elva.cruickshank",
+    "group": "accounting",
+    "email": "elva_cruickshank@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d3",
+    "name": "Elisabeth",
+    "surname": "Pacocha",
+    "login": "elisabeth_pacocha55",
+    "group": "unknown",
+    "email": "elisabeth_pacocha@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d4",
+    "name": "Cicero",
+    "surname": "Leffler",
+    "login": "cicero_leffler",
+    "group": "unknown",
+    "email": "cicero.leffler97@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d5",
+    "name": "Mollie",
+    "surname": "Veum",
+    "login": "mollie.veum",
+    "group": "accounting",
+    "email": "mollie.veum@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d6",
+    "name": "Talon",
+    "surname": "Dach",
+    "login": "talon_dach48",
+    "group": "management",
+    "email": "talon.dach@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d7",
+    "name": "Derek",
+    "surname": "Hayes",
+    "login": "derek.hayes43",
+    "group": "unknown",
+    "email": "derek_hayes@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d8",
+    "name": "Lulu",
+    "surname": "Lemke-Crona",
+    "login": "lulu.lemke-crona",
+    "group": "accounting",
+    "email": "lulu_lemke-crona@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7d9",
+    "name": "Samson",
+    "surname": "Lesch",
+    "login": "samson_lesch",
+    "group": "accounting",
+    "email": "samson_lesch@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7da",
+    "name": "Lonie",
+    "surname": "Gerhold",
+    "login": "lonie.gerhold99",
+    "group": "unknown",
+    "email": "lonie.gerhold@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7db",
+    "name": "Eldora",
+    "surname": "Hickle",
+    "login": "eldora.hickle",
+    "group": "analytics",
+    "email": "eldora.hickle53@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7dc",
+    "name": "Natalie",
+    "surname": "Considine-Schneider",
+    "login": "natalie_considine-schneider69",
+    "group": "tester",
+    "email": "natalie_considine-schneider73@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7dd",
+    "name": "Lennie",
+    "surname": "Yost",
+    "login": "lennie.yost40",
+    "group": "unknown",
+    "email": "lennie.yost@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7de",
+    "name": "Alva",
+    "surname": "Okuneva",
+    "login": "alva.okuneva74",
+    "group": "unknown",
+    "email": "alva.okuneva63@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7df",
+    "name": "Joshua",
+    "surname": "Ortiz",
+    "login": "joshua_ortiz",
+    "group": "accounting",
+    "email": "joshua.ortiz@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e0",
+    "name": "Karen",
+    "surname": "Heidenreich",
+    "login": "karen_heidenreich74",
+    "group": "analytics",
+    "email": "karen_heidenreich@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e1",
+    "name": "Orpha",
+    "surname": "Gottlieb",
+    "login": "orpha_gottlieb16",
+    "group": "tester",
+    "email": "orpha.gottlieb@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e2",
+    "name": "Scotty",
+    "surname": "Barrows",
+    "login": "scotty.barrows52",
+    "group": "accounting",
+    "email": "scotty_barrows35@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e3",
+    "name": "Jon",
+    "surname": "Rau",
+    "login": "jon_rau",
+    "group": "unknown",
+    "email": "jon_rau32@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e4",
+    "name": "Hank",
+    "surname": "Rowe",
+    "login": "hank.rowe60",
+    "group": "management",
+    "email": "hank_rowe67@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e5",
+    "name": "Hattie",
+    "surname": "Vandervort",
+    "login": "hattie_vandervort",
+    "group": "unknown",
+    "email": "hattie.vandervort33@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e6",
+    "name": "Waylon",
+    "surname": "Cummings",
+    "login": "waylon.cummings89",
+    "group": "analytics",
+    "email": "waylon_cummings@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e7",
+    "name": "Ron",
+    "surname": "Block",
+    "login": "ron_block11",
+    "group": "analytics",
+    "email": "ron.block@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e8",
+    "name": "Zechariah",
+    "surname": "Gutkowski",
+    "login": "zechariah_gutkowski",
+    "group": "unknown",
+    "email": "zechariah.gutkowski23@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7e9",
+    "name": "Timmy",
+    "surname": "Carter",
+    "login": "timmy_carter",
+    "group": "unknown",
+    "email": "timmy.carter16@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ea",
+    "name": "Margret",
+    "surname": "Beatty",
+    "login": "margret_beatty86",
+    "group": "unknown",
+    "email": "margret.beatty51@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ec",
+    "name": "Riley",
+    "surname": "Bailey",
+    "login": "riley_bailey26",
+    "group": "management",
+    "email": "riley.bailey92@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7eb",
+    "name": "Agnes",
+    "surname": "Miller",
+    "login": "agnes.miller90",
+    "group": "tester",
+    "email": "agnes_miller@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ed",
+    "name": "Antoinette",
+    "surname": "Goldner",
+    "login": "antoinette_goldner25",
+    "group": "unknown",
+    "email": "antoinette.goldner0@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ee",
+    "name": "Lambert",
+    "surname": "Kassulke",
+    "login": "lambert.kassulke86",
+    "group": "unknown",
+    "email": "lambert.kassulke42@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ef",
+    "name": "Dejuan",
+    "surname": "Gibson",
+    "login": "dejuan_gibson",
+    "group": "analytics",
+    "email": "dejuan_gibson@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f0",
+    "name": "Gonzalo",
+    "surname": "Hermiston",
+    "login": "gonzalo_hermiston",
+    "group": "unknown",
+    "email": "gonzalo_hermiston@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f1",
+    "name": "Margarette",
+    "surname": "Kuhlman",
+    "login": "margarette.kuhlman24",
+    "group": "management",
+    "email": "margarette.kuhlman70@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f2",
+    "name": "Madonna",
+    "surname": "Fisher",
+    "login": "madonna_fisher6",
+    "group": "tester",
+    "email": "madonna_fisher@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f3",
+    "name": "Herta",
+    "surname": "O'Conner",
+    "login": "herta.oconner",
+    "group": "management",
+    "email": "herta_oconner99@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f4",
+    "name": "Alice",
+    "surname": "Rogahn",
+    "login": "alice_rogahn3",
+    "group": "unknown",
+    "email": "alice.rogahn37@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f5",
+    "name": "Ocie",
+    "surname": "Lakin",
+    "login": "ocie.lakin87",
+    "group": "accounting",
+    "email": "ocie.lakin47@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f6",
+    "name": "Adam",
+    "surname": "Macejkovic",
+    "login": "adam_macejkovic45",
+    "group": "analytics",
+    "email": "adam.macejkovic@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f7",
+    "name": "Liana",
+    "surname": "Osinski",
+    "login": "liana.osinski",
+    "group": "unknown",
+    "email": "liana_osinski27@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f8",
+    "name": "Lenna",
+    "surname": "Christiansen",
+    "login": "lenna_christiansen70",
+    "group": "development",
+    "email": "lenna_christiansen68@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7f9",
+    "name": "Chaz",
+    "surname": "Ebert",
+    "login": "chaz.ebert",
+    "group": "development",
+    "email": "chaz_ebert94@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7fa",
+    "name": "Mohammed",
+    "surname": "Gutmann",
+    "login": "mohammed.gutmann",
+    "group": "unknown",
+    "email": "mohammed.gutmann22@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7fb",
+    "name": "Fabian",
+    "surname": "Krajcik",
+    "login": "fabian_krajcik57",
+    "group": "management",
+    "email": "fabian.krajcik32@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7fc",
+    "name": "Freeman",
+    "surname": "Franey",
+    "login": "freeman.franey",
+    "group": "unknown",
+    "email": "freeman.franey@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7fd",
+    "name": "Kenyatta",
+    "surname": "Nienow",
+    "login": "kenyatta.nienow31",
+    "group": "unknown",
+    "email": "kenyatta_nienow0@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7fe",
+    "name": "Filiberto",
+    "surname": "Fritsch",
+    "login": "filiberto.fritsch",
+    "group": "management",
+    "email": "filiberto.fritsch38@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7ff",
+    "name": "Darlene",
+    "surname": "Kessler",
+    "login": "darlene.kessler83",
+    "group": "management",
+    "email": "darlene.kessler15@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f800",
+    "name": "Deangelo",
+    "surname": "Koelpin",
+    "login": "deangelo_koelpin60",
+    "group": "unknown",
+    "email": "deangelo.koelpin60@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f801",
+    "name": "Cletus",
+    "surname": "Bosco-Torphy",
+    "login": "cletus_bosco-torphy",
+    "group": "unknown",
+    "email": "cletus_bosco-torphy82@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f802",
+    "name": "Eli",
+    "surname": "Rippin",
+    "login": "eli.rippin84",
+    "group": "unknown",
+    "email": "eli.rippin@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f803",
+    "name": "Roxane",
+    "surname": "Hackett",
+    "login": "roxane_hackett61",
+    "group": "analytics",
+    "email": "roxane.hackett74@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f804",
+    "name": "Dorthy",
+    "surname": "Schmidt",
+    "login": "dorthy.schmidt65",
+    "group": "management",
+    "email": "dorthy.schmidt@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f806",
+    "name": "Alexa",
+    "surname": "Hintz",
+    "login": "alexa_hintz85",
+    "group": "unknown",
+    "email": "alexa_hintz99@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f805",
+    "name": "Myrl",
+    "surname": "Cronin",
+    "login": "myrl.cronin",
+    "group": "unknown",
+    "email": "myrl.cronin@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f807",
+    "name": "Martine",
+    "surname": "Fadel",
+    "login": "martine_fadel",
+    "group": "analytics",
+    "email": "martine.fadel30@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f808",
+    "name": "Sandra",
+    "surname": "O'Keefe-Lang",
+    "login": "sandra_okeefe-lang",
+    "group": "tester",
+    "email": "sandra_okeefe-lang28@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f809",
+    "name": "Vincenza",
+    "surname": "Schiller",
+    "login": "vincenza_schiller",
+    "group": "accounting",
+    "email": "vincenza_schiller35@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f80a",
+    "name": "Darrick",
+    "surname": "Lang",
+    "login": "darrick.lang41",
+    "group": "analytics",
+    "email": "darrick_lang@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f80b",
+    "name": "Domenic",
+    "surname": "Herman",
+    "login": "domenic_herman",
+    "group": "analytics",
+    "email": "domenic_herman@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f80c",
+    "name": "Arvid",
+    "surname": "Roob",
+    "login": "arvid.roob",
+    "group": "accounting",
+    "email": "arvid.roob23@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f80d",
+    "name": "Vincenza",
+    "surname": "Abshire",
+    "login": "vincenza.abshire63",
+    "group": "analytics",
+    "email": "vincenza.abshire@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f80e",
+    "name": "Martin",
+    "surname": "Stanton",
+    "login": "martin.stanton8",
+    "group": "unknown",
+    "email": "martin_stanton@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f80f",
+    "name": "Leanna",
+    "surname": "Hackett",
+    "login": "leanna_hackett",
+    "group": "accounting",
+    "email": "leanna.hackett@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f810",
+    "name": "Molly",
+    "surname": "Little",
+    "login": "molly_little",
+    "group": "unknown",
+    "email": "molly.little61@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f811",
+    "name": "Adelle",
+    "surname": "Brakus",
+    "login": "adelle.brakus79",
+    "group": "accounting",
+    "email": "adelle_brakus22@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f812",
+    "name": "Isabella",
+    "surname": "Frami",
+    "login": "isabella_frami80",
+    "group": "accounting",
+    "email": "isabella_frami17@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f813",
+    "name": "Cordell",
+    "surname": "Schimmel",
+    "login": "cordell_schimmel",
+    "group": "unknown",
+    "email": "cordell.schimmel@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f814",
+    "name": "Aniyah",
+    "surname": "Shields",
+    "login": "aniyah.shields",
+    "group": "unknown",
+    "email": "aniyah.shields78@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f815",
+    "name": "Vinnie",
+    "surname": "Predovic",
+    "login": "vinnie.predovic",
+    "group": "tester",
+    "email": "vinnie.predovic@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f816",
+    "name": "Emmanuel",
+    "surname": "Ruecker",
+    "login": "emmanuel_ruecker",
+    "group": "accounting",
+    "email": "emmanuel.ruecker@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f817",
+    "name": "Gabe",
+    "surname": "Beer",
+    "login": "gabe.beer4",
+    "group": "analytics",
+    "email": "gabe_beer@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f818",
+    "name": "Izabella",
+    "surname": "O'Kon",
+    "login": "izabella.okon45",
+    "group": "unknown",
+    "email": "izabella_okon40@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f819",
+    "name": "Jordi",
+    "surname": "Upton-Kilback",
+    "login": "jordi.upton-kilback51",
+    "group": "management",
+    "email": "jordi_upton-kilback@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f81a",
+    "name": "Amy",
+    "surname": "Friesen",
+    "login": "amy_friesen",
+    "group": "management",
+    "email": "amy.friesen@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f81b",
+    "name": "Kaitlyn",
+    "surname": "Rempel",
+    "login": "kaitlyn.rempel",
+    "group": "analytics",
+    "email": "kaitlyn_rempel19@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f81c",
+    "name": "Nella",
+    "surname": "Reilly-Marvin",
+    "login": "nella_reilly-marvin",
+    "group": "accounting",
+    "email": "nella.reilly-marvin48@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f81d",
+    "name": "Alphonso",
+    "surname": "Hyatt",
+    "login": "alphonso.hyatt",
+    "group": "tester",
+    "email": "alphonso_hyatt@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f81e",
+    "name": "Jeanette",
+    "surname": "Howe",
+    "login": "jeanette_howe",
+    "group": "unknown",
+    "email": "jeanette_howe28@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f81f",
+    "name": "Richie",
+    "surname": "Funk-Mante",
+    "login": "richie_funk-mante",
+    "group": "accounting",
+    "email": "richie.funk-mante21@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f820",
+    "name": "Gladyce",
+    "surname": "McGlynn",
+    "login": "gladyce_mcglynn78",
+    "group": "accounting",
+    "email": "gladyce_mcglynn@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f821",
+    "name": "Liliana",
+    "surname": "Morissette",
+    "login": "liliana.morissette39",
+    "group": "analytics",
+    "email": "liliana.morissette84@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f822",
+    "name": "Nathanial",
+    "surname": "Mills",
+    "login": "nathanial_mills",
+    "group": "unknown",
+    "email": "nathanial_mills@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f823",
+    "name": "Hertha",
+    "surname": "Collier",
+    "login": "hertha_collier13",
+    "group": "management",
+    "email": "hertha_collier@gmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f825",
+    "name": "Jazlyn",
+    "surname": "Considine",
+    "login": "jazlyn.considine57",
+    "group": "unknown",
+    "email": "jazlyn_considine63@hotmail.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f824",
+    "name": "Anne",
+    "surname": "Dickens",
+    "login": "anne.dickens",
+    "group": "tester",
+    "email": "anne_dickens@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7b5",
+    "name": "Gaetano",
+    "surname": "Davis",
+    "login": "gaetano_davis",
+    "group": "unknown",
+    "email": "gaetano.davis40@yahoo.com",
+    "__v": 0
+  },
+  {
+    "_id": "68cfd290d2411a13c929f7bd",
+    "name": "Sally",
+    "surname": "Halvorson",
+    "login": "sally_halvorson",
+    "group": "accounting",
+    "email": "sally.halvorson5@yahoo.com",
+    "__v": 0
+  }
+]

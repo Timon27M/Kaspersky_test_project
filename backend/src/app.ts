@@ -4,6 +4,7 @@ import { errors } from "celebrate";
 import mongoose from "mongoose";
 
 import cors from "./middlewares/cors";
+import backupRoutes from "./routes/backup";
 import handlerError from "./middlewares/handlerError";
 import rateLimiter from "./middlewares/rateLimiter";
 import { requestLogger, errorLogger } from "./middlewares/logger";
@@ -19,6 +20,7 @@ app.use(cors);
 app.use(requestLogger);
 app.use(rateLimiter);
 app.use("/", routes);
+app.use("/db", backupRoutes);
 
 app.use(errorLogger);
 
