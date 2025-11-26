@@ -1,4 +1,4 @@
-# Kaspersky_test_project
+# project
 
 Для развертывания необходимм предустановленный Docker:
 1) Запустить проект командой: docker-compose up --build
